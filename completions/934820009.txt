@@ -1,0 +1,149 @@
+Tower of Killjoys/ToK/3.47/2021,02,01,09,37,18
+Tower of Stress/ToS/5.0/2021,02,01,08,55,01
+Tower of Lotsa Damage/ToLD/4.61/2021,03,05,22,16,11
+Tower of Anger/ToA/1.5/2020,11,03,14,56,43
+Tower of Screen Punching/ToSP/5.29/2021,02,09,16,53,40
+Tower of Annoyingly Simple Trials/ToAST/1.21/2020,11,03,14,36,36
+Tower of Madness/ToM/2.18/2020,11,03,15,03,50
+Tower of Hecc/ToH/3.45/2020,11,20,20,34,29
+Tower of Jolly Good Fun/ToJGF/1.65/2021,02,19,09,42,16
+Tower of Keyboard Yeeting/ToKY/4.14/2021,01,31,23,14,57
+Steeple of Meaningless Decisions/SoMD/1.22/2021,03,06,20,04,40
+Tower of Impossible Expectations/ToIE/6.01/2021,03,06,21,07,31
+Tower of Unearthed Discoveries/ToUD/4.21/2021,02,19,20,25,50
+Tower of Atlantic Depths/ToAD/2.36/2021,02,18,10,09,40
+Tower of Buttons/ToB/2.58/2021,03,04,17,02,03
+Tower of Peaceful Happiness and Tranquility/ToPHaT/1.5/2021,02,18,09,56,23
+Tower of Hands Sweating/ToHS/3.18/2021,02,19,19,24,31
+Tower of Peace/ToP/3.27/2021,02,18,22,44,19
+Tower of Leaning Ledges/ToLL/4.57/2022,04,30,11,06,13
+Tower of Fractured Obstacles/ToFO/7.31/2022,04,24,15,13,22
+Tower of Ancient Trickery/ToAT/2.62/2023,01,24,12,09,39
+Steeple of Buoyant Automations/SoBA/6.03/2023,01,22,14,52,43
+Steeple of Towering Pillars/SoTP/7.55/2025,04,01,08,37,13
+Tower of Mind Breaking/ToMB/8.36/2025,01,29,11,45,27
+Tower of Falling and Failing/ToFaF/5.61/2022,04,07,10,04,43
+Tower of Immense Ire/ToII/4.24/2022,11,25,12,24,50
+Tower of Icy Blizzards/ToIB/8.68/2025,03,21,16,46,10
+Steeple of Feudal Foliage/SoFF/3.8/2023,01,20,14,15,30
+Tower of Inverted Colors/ToIC/2.16/2023,01,24,11,47,04
+Tower of Rigid Success/ToRS/4.36/2022,04,25,17,28,06
+Steeple of Overgrown Ascension/SoOA/3.1/2022,11,28,19,03,52
+Tower of Increasing Stress/ToIS/6.37/2022,11,24,19,40,25
+Tower of Holy Flip/ToHF/6.34/2022,04,24,09,34,27
+Tower of Getting Gnomed/ToGG/2.62/2022,12,16,19,27,25
+Tower of Triangular Covering/ToTC/5.16/2022,11,25,14,55,02
+Tower of Eternal Suffering/ToES/7.4/2024,08,22,20,07,57
+Steeple of Nightfall/SoN/2.85/2022,11,26,11,29,30
+Tower of Fatness/ToF/3.54/2023,10,05,19,00,09
+Tower of Cold Hands/ToCH/4.0/2022,04,06,20,10,07
+Steeple of Wall Punching/SoWP/4.57/2022,04,23,09,18,22
+Tower of Rage/ToR/5.71/2022,04,06,07,27,36
+Steeple of Various Vivariums/SoVV/4.49/2023,01,21,14,56,00
+Citadel of Weird Nostalgia/CoWN/6.77/2022,12,19,12,22,14
+Tower of Diverging Layers/ToDL/5.3/2023,01,24,19,40,04
+Thanos Tower/TT/8.15/2024,08,22,15,46,22
+Tower of Big Hole/ToBH/3.4/2022,04,06,19,48,06
+Steeple of Overgrowth/SoO/2.73/2022,12,19,15,29,57
+Steeple of Devil's Snare/SoDS/1.54/2022,04,07,14,41,31
+Tower of True Skill/ToTS/7.0/2022,04,05,19,16,37
+Tower of Phone Snapping/ToPS/2.76/2022,04,06,07,49,23
+Tower of Despair/ToD/5.24/2023,10,06,09,15,12
+Tower of Spiraling Heights/ToSH/1.76/2022,04,24,09,50,58
+Steeple of Greenhouse Placidity/SoGP/3.7/2022,11,28,19,11,37
+Tower of Elysium/ToE/3.87/2023,10,08,07,09,59
+Steeple of Infectious Foliage/SoIF/2.32/2022,05,10,19,30,34
+Tower of Inception/ToI/10.87/2025,04,04,17,30,11
+Steeple of Climbing/SoC/5.49/2022,11,23,14,07,38
+Tower of Slight Inconvenience/ToSI/4.11/2023,10,05,21,50,05
+Tower of Funny Thoughts/ToFT/1.68/2022,10,23,17,01,43
+Steeple of Pursuit/SoP/2.82/2022,04,11,15,57,53
+Tower of Versatility/ToV/4.64/2022,11,25,13,06,26
+Tower of Table Flipping/ToTF/6.44/2022,04,07,12,52,51
+Tower of Terrible Mondays/ToTM/3.72/2023,08,16,07,55,43
+Tower of Overcoming Hatred/ToOH/3.88/2022,04,06,20,01,30
+Tower of Confusion/ToC/8.81/2025,01,26,22,04,34
+Tower of Getting Kinda Dissappointed/ToGKD/3.52/2023,10,11,17,31,39
+Steeple of Beginner's Journey/SoBJ/1.24/2022,04,07,14,32,27
+Steeple of Lost In Quiescence/SoLIQ/3.84/2023,01,20,14,08,35
+Steeple of Low Woe/SoLW/3.0/2022,04,23,09,15,30
+Tower of Deep Darkness/ToDD/5.8/2024,08,06,10,54,48
+Tower of Frightening Nightmares/ToFN/10.21/2025,01,26,14,02,05
+Tower of Difficulty Chart/ToDC/8.06/2025,01,26,21,23,00
+Steeple of Flourishing Wastelands/SoFW/5.61/2022,11,28,19,38,19
+Citadel of Laptop Splitting/CoLS/6.45/2023,01,21,12,47,07
+Tower of Wall Hugging/ToWH/4.37/2022,04,25,17,49,47
+Tower of Traps/ToT/5.7/2024,07,31,13,46,11
+Tower of Deep Sighing/ToDS/2.76/2023,01,24,12,36,41
+Tower of Tokyo Heights/ToTH/6.46/2022,04,23,21,39,30
+Tower of Linonophobia/ToL/4.24/2022,04,26,08,33,07
+Tower of Noticeable Infuriation/ToNI/2.8/2025,02,23,19,58,12
+Steeple of Huge Pain/SoHP/6.35/2022,11,25,16,40,58
+Tower of Nice Views/ToNV/2.61/2023,01,11,11,30,31
+Steeple of Uninstalling Roblox/SoUR/3.85/2022,04,11,16,03,56
+Tower of Winning Every Run/ToWER/3.55/2023,10,05,19,12,04
+Citadel of Inside Situations/CoIS/4.48/2023,10,07,14,28,07
+Tower of Dangerous Expeditions/ToDE/6.75/2023,08,31,07,19,17
+Tower of Shattered Dreams/ToSD/5.84/2023,10,09,07,52,19
+Steeple of Sunny Island Shenanigans/SoSIS/4.01/2024,08,01,08,36,27
+Tower of Troublesome Adventures/ToTA/3.93/2022,06,16,18,23,21
+Tower of Frightening and Confusing Trials/ToFaCT/8.98/2025,01,27,09,00,04
+Tower of Curved Ascent/ToCA/8.46/2025,01,27,08,22,40
+Tower of Yearning Success/ToYS/4.8/2022,07,17,10,08,59
+Tower of High Adrenaline/ToHA/8.14/2025,01,27,08,34,57
+Tower of Really Nasty Ideas/ToRNI/7.19/2025,02,06,16,07,40
+Tower of Cruel Punishment/ToCP/11.99/2025,03,24,13,53,36
+Steeple of Upright Cliffs/SoUC/5.78/2025,02,03,20,28,55
+Tower of Elongated Runs/ToER/11.84/2025,03,31,07,54,48
+Tower of Wanting Extra Levels/ToWEL/5.75/2023,10,12,18,08,46
+Tower of Mirrored Hecc/ToMH/3.91/2022,07,16,11,57,30
+Tower of Friendly Jumps/ToFJ/3.11/2022,10,24,18,54,13
+Tower of Orientating Oscillating Opinions/ToOOO/6.11/2024,07,30,13,24,11
+Tower of Rushed Building/ToRB/4.58/2022,12,01,11,29,27
+Tower of Bent Trauma/ToBT/8.21/2025,01,27,08,10,41
+Steeple of Abyssal Upturn/SoAU/3.74/2024,08,01,08,20,40
+Tower of Absolute Vexation/ToAV/5.64/2023,10,11,18,55,31
+Tower of Contractual Obligations/ToCO/4.74/2022,07,15,20,11,54
+Tower of Generation Failure/ToGF/11.17/2025,01,27,13,16,24
+Tower of Extreme Dystopia/ToED/7.11/2025,01,30,09,54,10
+Tower of Thinning Layers/ToTL/8.48/2024,07,29,22,48,35
+Steeple of Mystical Marine/SoMM/1.76/2022,10,23,08,06,46
+Tower of Impossible Movement/ToIM/10.11/2025,01,26,14,32,48
+Tower of Zespluz/ToZ/7.97/2025,01,30,10,22,26
+Tower of Bloodthirsty Kenos/ToBK/9.08/2025,01,26,15,56,43
+Steeple of Aquatic Rallies/SoAR/4.14/2024,08,02,15,16,22
+Tower of Zero Disturbances/ToZD/1.19/2022,04,05,18,12,56
+Tower of Intense Solar Chaos/ToISC/6.3/2024,07,29,18,34,39
+Tower of Dreams and Caverns/ToDaC/5.02/2023,06,23,09,02,46
+Citadel of Scythe Recognition/CoSR/7.34/2024,08,19,15,01,59
+Steeple of Desolate Isles/SoDI/5.21/2025,02,01,19,27,41
+Tower of Unsettling Heights/ToUH/8.19/2025,03,16,20,58,53
+Tower of Ground Level Ascension/ToGLA/3.48/2024,07,28,17,44,08
+Tower of Suffering Outside/ToSO/9.34/2025,01,27,12,02,19
+Tower of Questionable Trials/ToQT/7.13/2025,01,04,10,15,12
+Tower of Slanted Anticipation/ToSA/2.94/2022,06,16,18,34,57
+Tower of Champion's Road/ToCR/11.71/2025,01,29,19,59,23
+Tower of Extreme Hell/ToEH/8.17/2025,03,17,14,07,33
+Tower of Terrifying Beauty/ToTB/9.41/2025,03,26,11,25,58
+Tower of Astral Fusion/ToAF/7.02/2024,09,21,07,13,04
+Tower of Hopeless Hell/ToHH/9.5/2024,09,06,23,41,48
+Tower of Inevitable Failure/ToIF/8.45/2025,01,10,12,11,52
+Tower of Dimensional Hopping/ToDH/4.23/2022,07,24,07,02,40
+Tower of Cracked, Crushed Cubes/ToCCC/3.38/2022,07,17,20,19,48
+Tower of Six Feet Under/ToSFU/1.12/2022,07,17,10,44,36
+Tower of Xanthophobia/ToX/3.81/2022,07,23,20,34,20
+Tower of Overestimating Difficulty/ToOD/1.99/2022,07,17,11,00,30
+Tower of Fun and Simple Trials/ToFaST/3.26/2023,10,07,20,24,12
+Tower of Fairly Simple Challenges/ToFSC/1.58/2023,06,30,20,02,14
+Tower of Aquatic Contemplation/ToAC/2.89/2024,08,06,08,41,50
+Tower of Alien Radiance/ToAR/10.41/2025,01,26,19,03,44
+Tower of Broken Bricks/ToBB/2.05/2022,07,17,15,23,04
+Tower of Heiwana Kaze/ToHK/6.33/2024,07,30,23,49,48
+Tower of Client Object Frenzy/ToCOF/2.81/2022,07,17,17,01,18
+Tower of Astronomically Aimless Annoyances/ToAAA/9.25/2025,04,05,17,16,41
+Tower of Up Is Down/ToUID/3.56/2023,10,07,20,11,05
+Tower of Polychromatic Zero/ToPZ/8.72/2025,03,15,08,15,21
+Tower of Double Trouble/ToDT/8.0/2024,08,05,21,32,39
+Tower of Micro Management/ToMM/10.29/2025,04,07,18,59,06
+Tower of Rough Endoplasmic Reticulum/ToRER/8.82/2025,03,22,08,06,44
+Tower of Hollow Reformations/ToHR/8.88/2025,03,23,15,51,37

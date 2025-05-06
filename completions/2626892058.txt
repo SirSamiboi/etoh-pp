@@ -1,0 +1,40 @@
+Steeple of Wicked Grotto/SoWG/6.02/2025,04,29,13,02,04
+Steeple of Overgrown Ascension/SoOA/3.16/2025,03,31,13,01,10
+Tower of Hecc/ToH/3.42/2025,02,21,18,09,53
+Tower of Perilous Antipode/ToPA/6.0/2025,03,08,12,24,34
+Tower of Anger/ToA/1.5/2025,01,04,09,56,18
+Tower of Cold Hands/ToCH/4.0/2025,03,21,15,19,50
+Steeple of Buoyant Automations/SoBA/6.03/2025,03,23,18,21,16
+Tower of Keyboard Yeeting/ToKY/4.14/2025,02,22,19,29,46
+Steeple of Beginner's Journey/SoBJ/1.24/2025,02,27,10,01,31
+Tower of Screen Punching/ToSP/5.29/2025,03,08,10,57,46
+Steeple of Meaningless Decisions/SoMD/1.22/2025,03,07,18,53,38
+Tower of Annoyingly Simple Trials/ToAST/1.21/2025,01,04,09,46,35
+Tower of Stress/ToS/4.88/2025,02,26,13,36,25
+Tower of Big Hole/ToBH/3.4/2025,02,14,15,53,55
+Steeple of Various Vivariums/SoVV/4.49/2025,03,24,09,39,06
+Tower of Madness/ToM/2.11/2025,01,08,14,08,50
+Steeple of Low Woe/SoLW/3.0/2025,04,09,16,06,43
+Tower of Inverted Colors/ToIC/2.09/2025,02,25,18,54,23
+Steeple of Devil's Snare/SoDS/1.54/2025,02,27,15,22,34
+Steeple of Pursuit/SoP/2.82/2025,03,08,11,36,49
+Tower of Jolly Good Fun/ToJGF/1.65/2025,02,14,15,25,57
+Tower of Funny Thoughts/ToFT/1.68/2025,02,23,06,56,00
+Tower of Spiraling Heights/ToSH/1.76/2025,03,08,13,52,05
+Steeple of Feudal Foliage/SoFF/3.8/2025,03,24,09,49,11
+Tower of Overcoming Hatred/ToOH/3.73/2025,02,15,07,55,04
+Tower of Phone Snapping/ToPS/2.76/2025,02,14,15,36,13
+Tower of Zero Disturbances/ToZD/1.19/2025,02,26,14,09,37
+Tower of Peaceful Happiness and Tranquility/ToPHaT/1.5/2025,02,21,18,43,27
+Tower of Mirrored Hecc/ToMH/3.91/2025,03,12,17,33,47
+Citadel of Inside Situations/CoIS/4.48/2025,04,01,14,47,12
+Tower of Rock Climbing/ToRC/4.67/2025,04,22,16,02,33
+Tower of Super Stupid Security Systems/ToSSSS/3.91/2025,04,21,18,15,36
+Tower of Fractal Volution/ToFV/4.52/2025,04,03,17,41,58
+Tower of Slanted Anticipation/ToSA/2.98/2025,03,12,18,22,41
+Tower of Mechanically Induced Mayhem/ToMIM/6.02/2025,04,04,19,12,30
+Tower of Foreign Domains/ToFD/3.64/2025,04,28,18,21,36
+Tower of Fairly Simple Challenges/ToFSC/1.58/2025,04,22,15,33,33
+Steeple of Aquatic Rallies/SoAR/4.14/2025,03,26,18,06,32
+Tower of Venomous Resonance/ToVR/2.68/2025,03,12,18,05,00
+Tower of Up Is Down/ToUID/3.56/2025,04,22,14,45,34

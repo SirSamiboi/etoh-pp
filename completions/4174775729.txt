@@ -1,0 +1,300 @@
+Thanos Tower/TT/8.15/2025,05,04,06,05,40
+Tower of Big Hole/ToBH/3.4/2023,02,08,13,44,55
+Tower of Triangular Covering/ToTC/5.0/2023,04,30,12,17,15
+Tower of Keyboard Yeeting/ToKY/4.14/2023,02,08,13,54,04
+Steeple of Infectious Foliage/SoIF/2.32/2023,01,29,10,49,00
+Citadel of Weird Nostalgia/CoWN/6.77/2024,01,16,07,23,17
+Steeple of Malignant Blight/SoMB/7.45/2024,01,30,15,00,53
+Tower of Leaning Ledges/ToLL/4.57/2023,03,23,09,35,21
+Steeple of Lost In Quiescence/SoLIQ/3.84/2023,02,10,11,07,20
+Tower of Madness/ToM/2.11/2023,01,25,13,59,03
+Tower of Killjoys/ToK/3.47/2023,03,20,12,09,13
+Tower of Deep Darkness/ToDD/5.8/2023,07,13,09,02,41
+Steeple of Various Vivariums/SoVV/4.49/2023,02,28,13,45,07
+Tower of Increasing Stress/ToIS/6.37/2023,12,28,07,27,39
+Tower of Floral Fury/ToFF/6.05/2023,10,13,11,56,18
+Tower of Immense Ire/ToII/4.24/2023,02,08,14,51,51
+Steeple of Huge Pain/SoHP/6.35/2023,09,20,08,48,19
+Steeple of Overgrowth/SoO/2.67/2023,01,30,09,07,00
+Steeple of Midnight Acropolis/SoMA/7.34/2023,09,15,13,06,41
+Tower of Falling and Failing/ToFaF/5.61/2023,07,27,07,27,34
+Tower of Fatness/ToF/3.54/2023,03,10,12,22,42
+Tower of Holy Flip/ToHF/6.34/2024,01,30,10,53,00
+Tower of Elysium/ToE/3.92/2023,05,08,12,08,03
+Steeple of Low Woe/SoLW/3.0/2023,01,31,08,41,07
+Tower of Slight Inconvenience/ToSI/4.11/2023,05,23,11,21,56
+Steeple of Ruinous Abate/SoRA/4.87/2023,08,07,10,39,27
+Steeple of Climbing/SoC/5.49/2023,02,22,11,06,54
+Tower of Overcoming Hatred/ToOH/3.73/2023,05,02,11,48,13
+Tower of Shallow Waters/ToSW/6.64/2024,01,16,08,08,07
+Tower of Getting Kinda Dissappointed/ToGKD/3.52/2023,03,02,11,01,52
+Tower of Ancient Trickery/ToAT/2.62/2023,02,02,07,47,28
+Steeple of Feudal Foliage/SoFF/3.8/2023,02,27,09,38,18
+Tower of Lotsa Damage/ToLD/4.61/2023,05,24,14,06,59
+Tower of Inverted Colors/ToIC/2.09/2023,02,06,07,13,11
+Steeple of Devil's Snare/SoDS/1.54/2023,01,29,10,29,04
+Steeple of Descendance/SoD/5.15/2023,08,07,11,00,10
+Steeple of Xenial Abyss/SoXA/5.9/2023,08,08,06,47,38
+Tower of Phone Snapping/ToPS/2.76/2023,01,30,08,46,59
+Tower of Extraordinary Adventures/ToEA/6.12/2023,04,13,08,46,08
+Tower of Annoyingly Simple Trials/ToAST/1.21/2023,01,25,13,38,55
+Tower of Stress/ToS/4.88/2023,03,06,12,42,56
+Steeple of Pursuit/SoP/2.82/2023,02,08,14,31,54
+Tower of True Skill/ToTS/7.09/2023,06,14,07,51,06
+Steeple of Greenhouse Placidity/SoGP/3.7/2023,02,10,10,53,30
+Tower of Spiraling Heights/ToSH/1.76/2023,02,08,14,14,00
+Tower of Versatility/ToV/4.64/2023,05,04,07,16,41
+Tower of Downward Mobility/ToDM/5.17/2023,03,09,10,08,05
+Tower of Despair/ToD/5.24/2023,08,30,07,08,18
+Citadel of Heights and Depths/CoHaD/6.13/2023,05,03,10,53,57
+Tower of Impossible Expectations/ToIE/6.01/2023,07,18,10,49,45
+Tower of Dangerous Expeditions/ToDE/6.75/2023,09,21,11,07,15
+Tower of Oblivion/ToO/6.97/2023,05,18,13,11,28
+Tower of Deep Sighing/ToDS/2.76/2023,02,04,07,47,41
+Tower of Hecc/ToH/3.42/2023,02,10,11,31,54
+Steeple of Overgrown Ascension/SoOA/3.16/2023,02,01,08,04,27
+Tower of Noticeable Infuriation/ToNI/2.8/2025,02,19,06,50,52
+Tower of Rage/ToR/5.71/2023,07,19,08,10,36
+Tower of Traps/ToT/5.7/2023,08,30,12,02,12
+Steeple of Flourishing Wastelands/SoFW/5.61/2023,02,28,14,08,28
+Steeple of Wicked Grotto/SoWG/6.02/2023,08,08,07,17,25
+Citadel of Uneasiness/CoU/6.8/2023,09,25,13,06,28
+Tower of Obvious Chaos/ToOC/5.85/2023,06,19,06,26,43
+Tower of There Is No Tower/ToTINT/5.42/2023,08,07,15,21,32
+Steeple of Buoyant Automations/SoBA/6.03/2023,07,27,09,40,31
+Tower of Wall Hugging/ToWH/4.37/2023,03,09,09,24,05
+Steeple of Beginner's Journey/SoBJ/1.24/2023,01,29,10,18,13
+Tower of Perilous Antipode/ToPA/6.0/2023,06,07,08,03,22
+Steeple of Involuntary Isolation/SoII/6.71/2023,10,11,14,35,14
+Steeple of Wall Punching/SoWP/4.57/2023,03,02,11,30,54
+Tower of Table Flipping/ToTF/6.44/2023,10,07,05,46,43
+Steeple of Nightfall/SoN/2.81/2023,01,30,09,27,09
+Tower of Funny Thoughts/ToFT/1.68/2023,02,01,08,18,30
+Tower of Linonophobia/ToL/4.24/2023,05,25,11,56,59
+Tower of Jolly Good Fun/ToJGF/1.65/2023,01,29,09,56,21
+Tower of Tenebrous Depths/ToTD/6.95/2023,08,28,09,35,51
+Tower of Rigid Success/ToRS/4.36/2023,03,23,17,19,56
+Tower of Anger/ToA/1.5/2023,01,25,13,48,42
+Steeple of Guiding Lights/SoGL/5.66/2023,08,07,13,06,53
+Tower of Screen Punching/ToSP/5.29/2023,03,27,14,34,00
+Tower of Getting Gnomed/ToGG/2.84/2023,02,10,10,29,22
+Tower of Cold Hands/ToCH/4.0/2023,02,20,14,50,58
+Tower of Shattered Dreams/ToSD/5.84/2023,07,27,13,02,46
+Tower of Winning Every Run/ToWER/3.55/2023,02,22,15,06,06
+Steeple of Uninstalling Roblox/SoUR/3.85/2023,03,01,10,31,48
+Tower of Nice Views/ToNV/2.85/2023,02,28,14,38,11
+Tower of Dust and Decay/ToDaD/5.01/2023,06,08,06,18,54
+Steeple of Meaningless Decisions/SoMD/1.22/2023,01,31,08,18,26
+Tower of Terrible Mondays/ToTM/3.72/2023,04,19,11,57,00
+Citadel of Laptop Splitting/CoLS/6.5/2023,12,27,14,28,19
+Tower of Ancestral Interference/ToAI/4.98/2023,08,07,05,30,39
+Steeple of Resort In Stasis/SoRIS/4.71/2023,08,07,04,48,02
+Tower of Difficulty Chart/ToDC/8.06/2023,07,11,08,02,57
+Tower of Friendly Jumps/ToFJ/3.27/2023,03,11,06,09,40
+Tower of Intense Solar Chaos/ToISC/6.3/2023,09,02,06,44,30
+Tower of Insanely Innovative Ideas/ToIII/6.99/2024,01,16,14,05,22
+Tower of Somewhat Simple Scaling/ToSSS/2.38/2023,05,09,09,09,43
+Tower of Voluminous Framework/ToVF/5.25/2023,05,09,10,25,21
+Tower of Niflheim/ToN/7.1/2024,09,11,12,55,57
+Tower of Atlantic Depths/ToAD/2.36/2023,02,09,10,35,38
+Tower of Compact Spaces/ToCS/6.98/2023,10,25,08,19,00
+Tower of Shadowy Radiance/ToSR/6.26/2024,03,07,07,25,09
+Tower of Rhythm Heaven/ToRH/7.74/2025,05,03,16,06,46
+Tower of Never Giving Up, Ever/ToNGUE/6.54/2023,09,16,07,49,24
+Tower of Losing Our Zeal/ToLOZ/4.86/2023,05,04,08,56,55
+Tower of Wanting More Time/ToWMT/5.15/2024,03,06,07,23,23
+Tower of Great Overcomings/ToGO/6.49/2023,08,30,10,16,10
+Tower of Witchcraft and Wizardry/ToWaW/6.74/2023,09,17,07,52,42
+Citadel of Constant Heart Stopping/CoCHS/6.35/2024,01,18,09,10,44
+Tower of Zero Disturbances/ToZD/1.19/2023,01,25,14,36,27
+Tower of High Adrenaline/ToHA/8.14/2024,07,30,07,03,55
+Tower of Climactic Beats/ToCB/7.06/2024,06,06,08,43,36
+Tower of Environmental Pain/ToEP/4.3/2023,03,24,12,18,11
+Tower of Verdant Entropy/ToVE/7.56/2025,03,22,16,05,41
+Tower of Absolute Vexation/ToAV/5.64/2023,08,23,17,03,17
+Tower of Needing Basic Aptitude/ToNBA/3.87/2023,05,19,06,26,40
+Tower of Forever-Sleeping Flower/ToFSF/7.02/2024,06,06,07,56,49
+Citadel of True Exasperation/CoTE/7.66/2024,10,02,15,11,59
+Tower of Two Sided Troubles/ToTST/3.79/2023,03,07,15,15,43
+Steeple of Mystical Marine/SoMM/1.76/2023,01,25,14,44,04
+Tower of Hands Sweating/ToHS/3.28/2023,04,12,10,35,19
+Tower of Diverging Layers/ToDL/5.3/2023,08,31,08,21,52
+Tower of Unsettling Heights/ToUH/8.19/2024,01,22,13,38,58
+Tower of Mean Tasks/ToMT/7.69/2025,05,02,17,37,47
+Tower of Triple Jeopardy/ToTJ/7.01/2024,10,05,07,57,41
+Tower of Radiant Realms/ToRR/4.52/2023,06,16,11,48,19
+Tower of Glitching and Healing/ToGaH/7.05/2024,07,10,17,41,42
+Tower of A Depressing Future/ToADF/6.12/2023,10,30,14,12,02
+Tower of Wanting Extra Levels/ToWEL/5.75/2023,07,20,12,48,52
+Tower of Viaduct Traversing/ToVT/3.88/2024,03,04,13,45,52
+Tower of Bloodthirsty Kenos/ToBK/9.08/2024,07,27,11,05,44
+Tower of Rushed Building/ToRB/4.58/2023,05,04,10,02,13
+Tower of Whisking It All/ToWIA/6.1/2024,03,06,15,15,00
+Tower of Whirl of Winds/ToWoW/6.42/2024,03,06,16,48,34
+Tower of Mirrored Hecc/ToMH/3.91/2023,04,13,06,24,17
+Tower of Curved Ascent/ToCA/8.46/2024,07,02,16,25,04
+Tower of Distorted Aerodynamics/ToDA/5.85/2023,08,29,10,01,55
+Tower of Dispersed Rooms/ToDR/6.68/2023,09,18,16,43,07
+Tower of Ultimately Terrifying/ToUT/6.58/2024,01,17,09,50,20
+Citadel of Inside Situations/CoIS/4.48/2023,08,31,06,30,51
+Tower of Vibrant Adventures/ToVA/5.6/2023,08,31,09,50,51
+Tower of Tokyo Heights/ToTH/6.46/2023,05,22,11,30,55
+Tower of Bent Trauma/ToBT/8.21/2025,03,21,11,38,54
+Tower of Beat Block Berserk/ToBBB/7.03/2023,08,12,06,36,30
+Tower of Excessive Weirdness/ToEW/2.89/2023,03,07,13,01,02
+Tower of Flustering Sections/ToFS/6.71/2023,10,25,12,16,33
+Tower of Contractual Obligations/ToCO/4.9/2023,03,14,12,42,25
+Tower of Ultraviolet/ToU/7.55/2025,03,03,15,07,32
+Tower of Yearning Success/ToYS/4.92/2023,03,31,08,20,26
+Tower of Peaceful Happiness and Tranquility/ToPHaT/1.5/2023,02,09,10,26,27
+Tower of Tallying Every Mistake/ToTEM/7.0/2024,09,10,13,58,18
+Tower of Collective Collaboration/ToCC/5.34/2023,06,20,07,25,15
+Tower of Fruity Zeal/ToFZ/2.66/2024,03,04,12,43,37
+Tower of Thinning Layers/ToTL/8.48/2023,07,17,11,45,34
+Tower of Corner Wedge Climbing/ToCWC/4.23/2024,03,04,16,25,51
+Tower of Orientating Oscillating Opinions/ToOOO/6.11/2023,09,23,16,01,04
+Tower of Aamos' Anger/ToAA/5.75/2023,08,14,09,16,07
+Tower of Feeling Lazy/ToFL/5.31/2023,08,31,12,09,39
+Tower of Uneasy Scaling/ToUS/6.66/2023,10,12,14,46,15
+Tower of Largely Limited Luminance/ToLLL/6.55/2024,03,07,08,36,09
+Tower of Peace/ToP/3.37/2023,02,11,09,36,15
+Tower of Twisted Inquisition/ToTI/5.43/2023,08,26,08,02,48
+Tower of Odd Odyssey/ToOO/5.59/2023,08,19,07,56,25
+Tower of Inevitable Failure/ToIF/8.45/2024,06,24,07,23,17
+Tower of Astral Fusion/ToAF/7.02/2023,04,14,09,33,50
+Tower of Ground Level Ascension/ToGLA/3.48/2023,02,19,11,26,16
+Tower of Cyclonic Isles/ToCI/5.76/2023,06,01,12,11,24
+Steeple of Astounding Sorcery/SoAS/2.45/2023,02,13,12,54,45
+Tower of Double Trouble/ToDT/8.0/2023,09,21,11,54,58
+Steeple of Abyssal Upturn/SoAU/3.74/2023,06,16,10,44,51
+Tower of Anticlimactic Outcomes/ToAO/6.96/2023,10,04,13,33,00
+Steeple of Hallucinatory Spectacles/SoHS/5.25/2023,08,28,07,56,38
+Tower of Stairs To Spare/ToSTS/5.19/2023,04,04,12,59,04
+Steeple of Realm Odyssey/SoRO/3.17/2023,02,13,13,12,52
+Steeple of Magical Collaborations/SoMC/6.22/2023,06,21,07,30,50
+Tower of Heiwana Kaze/ToHK/6.33/2023,04,10,10,56,09
+Tower of Super Stupid Security Systems/ToSSSS/3.91/2023,03,15,10,33,35
+Tower of Mild Agitation/ToMA/4.52/2023,04,27,12,03,00
+Tower of Rock Climbing/ToRC/4.67/2023,04,06,11,21,44
+Tower of Elevator Travelling/ToET/4.51/2023,03,18,13,54,17
+Tower of Massive Overheating/ToMO/7.42/2025,03,23,09,43,13
+Steeple of Crystal Ascension/SoCA/5.19/2023,02,19,11,01,44
+Tower of Bright Serenity/ToBS/4.75/2023,04,26,11,17,22
+Citadel of Corporate Enterprise/CoCE/6.79/2023,09,23,15,20,07
+Tower of Up Is Down/ToUID/3.56/2023,03,16,10,44,12
+Tower of Cracked, Crushed Cubes/ToCCC/3.38/2023,03,02,11,55,15
+Tower of Shifting Slopes/ToSS/6.8/2023,08,13,06,41,01
+Citadel of Twists and Weirdness/CoTaW/6.06/2023,09,17,06,18,28
+Steeple of Magical Elements/SoME/4.81/2023,02,15,13,20,16
+Tower of Xanthophobia/ToX/3.81/2023,03,02,15,23,35
+Tower of Client Object Frenzy/ToCOF/2.77/2023,02,23,10,00,34
+Tower of Horrifying Experiences/ToHE/6.33/2023,09,21,10,42,34
+Tower of Guided Trials/ToGT/6.52/2023,09,23,14,24,15
+Steeple of Twisted Crystals/SoTC/4.15/2023,02,14,13,59,21
+Citadel of Green Stuff/CoGS/6.39/2024,01,16,09,23,43
+Tower of Alien Radiance/ToAR/10.33/2025,02,21,17,54,38
+Tower of Rough Waters/ToRW/3.23/2023,04,17,12,26,12
+Tower of Cogs and Steam/ToCaS/4.66/2023,04,01,07,42,11
+Tower of Quirky Contraptions/ToQC/6.18/2023,10,05,16,04,45
+Steeple of Upright Cliffs/SoUC/5.78/2023,06,02,08,41,21
+Citadel of Tricky Situations/CoTS/4.94/2023,06,21,06,39,07
+Tower of Wicked Wedges/ToWW/4.48/2023,03,29,13,20,49
+Tower of Troublesome Adventures/ToTA/3.93/2023,03,14,12,07,30
+Tower of Overestimating Difficulty/ToOD/1.99/2023,02,20,09,24,56
+Tower of Break It, Buy It/ToBIBI/5.38/2023,04,12,10,07,58
+Steeple of Atmospheric Powers/SoAP/3.36/2023,02,14,13,35,43
+Tower of Funky Grooves/ToFG/7.28/2025,05,03,07,17,12
+Steeple of Dusty Dunes/SoDD/6.32/2023,07,06,08,25,37
+Tower of Hazardous Laddering/ToHL/6.25/2023,04,13,15,17,49
+Steeple of Aquatic Rallies/SoAR/4.14/2023,02,15,15,07,21
+Tower of Angled Scenery/ToAS/5.54/2023,04,11,11,22,19
+Tower of Jazz/ToJ/2.75/2023,04,27,12,21,29
+Tower of Infuriating Obstacles/ToIO/6.08/2023,12,25,09,42,47
+Tower of Unearthed Discoveries/ToUD/4.21/2023,02,13,12,30,25
+Tower of Requiring Critical Help/ToRCH/4.94/2023,08,29,10,43,51
+Tower of Triangular Terror/ToTT/6.98/2023,09,23,06,36,31
+Steeple of Underlying Breezes/SoUB/6.31/2023,09,24,07,20,18
+Tower of Polychromatic Zero/ToPZ/8.72/2025,04,27,09,02,34
+Tower of Hefty Magnitude/ToHM/5.88/2023,04,13,07,34,49
+Steeple of Sunny Island Shenanigans/SoSIS/4.01/2023,02,09,10,55,09
+Tower of Foreign Domains/ToFD/3.64/2023,04,04,13,20,31
+Tower of Modernistic Design Choices/ToMDC/1.87/2023,04,24,10,42,19
+Tower of Arcanium Zenturing/ToAZ/6.76/2023,11,18,12,42,13
+Tower of Six Feet Under/ToSFU/1.12/2023,02,20,09,02,45
+Tower of Pleasant Fantasies/ToPF/5.62/2023,06,17,06,33,34
+Tower of Cruel and Unusual Punishment/ToCaUP/6.46/2024,02,07,14,02,50
+Tower of Sovereign Travelling/ToST/3.4/2023,03,28,11,29,10
+Tower of Fairly Simple Challenges/ToFSC/1.58/2023,03,14,14,42,28
+Tower of Watts/ToW/6.4/2023,10,10,12,16,35
+Tower of Slipping and Sliding/ToSaS/5.74/2023,08,04,07,06,54
+Tower of Dimensional Hopping/ToDH/4.23/2023,03,13,11,16,04
+Steeple of Witch Calamity/SoWC/5.81/2023,02,16,13,32,13
+Tower of Fractal Volution/ToFV/4.52/2023,03,27,11,41,55
+Steeple of Cliffside Falls/SoCF/5.83/2023,08,24,06,09,35
+Tower of Icy Adventures/ToIA/6.97/2024,03,07,10,07,26
+Steeple of Desolate Isles/SoDI/5.21/2023,03,21,12,40,22
+Tower of Pure Chroma/ToPC/5.64/2023,06,19,08,56,22
+Tower of Mechanically Induced Mayhem/ToMIM/6.02/2023,04,13,16,20,55
+Steeple of Biome Traversing/SoBT/2.39/2023,02,13,12,44,28
+Tower of Venomous Resonance/ToVR/2.68/2023,02,11,09,50,43
+Tower of Fun and Simple Trials/ToFaST/3.26/2023,03,16,10,10,21
+Tower of Menacing Creations/ToMC/5.56/2023,08,29,06,08,20
+Tower of Conflicting Frontiers/ToCF/5.04/2023,04,07,12,39,09
+Tower of Sweet Victory/ToSV/3.72/2023,04,17,14,10,03
+Tower of Unhealthy Escalation/ToUE/5.99/2023,08,26,07,17,45
+Tower of Broken Bricks/ToBB/2.07/2023,02,20,15,15,56
+Tower of Aquatic Contemplation/ToAC/2.95/2023,03,15,15,16,46
+Tower of Slanted Anticipation/ToSA/2.98/2023,02,14,13,24,16
+Tower of Zany Architecture/ToZA/7.94/2025,03,03,17,24,16
+Tower of Dreams and Caverns/ToDaC/5.02/2023,03,29,07,52,04
+Tower of Traversing The Tropics/ToTTT/5.98/2023,07,27,06,59,28
+Tower of Extraterrestrial Enchantment/ToEE/6.49/2023,09,21,07,37,00
+Tower of One Two Three Four/ToOTTF/7.12/2025,04,22,13,07,33
+Tower of The Despondent Fortress/ToTDF/7.24/2025,04,23,06,56,57
+Tower of Sugar Rush Deluxe/ToSRD/6.01/2024,10,16,17,31,39
+Tower of Valiant Verges/ToVV/5.86/2025,04,07,13,53,53
+Tower of One Nine/ToON/6.33/2023,04,29,08,16,31
+Tower of Furious Chicken Brawl/ToFCB/6.86/2024,11,11,14,51,50
+Citadel of A Cruel Tale/CoACT/7.77/2024,09,19,12,59,54
+Tower of Bonus Level/ToBL/5.68/2024,10,15,17,35,37
+Tower of Bygone Relic/ToBR/4.49/2023,04,18,12,05,29
+Tower of Overbearing Vertigo/ToOV/7.04/2024,01,30,16,08,37
+Tower of Astral Eclipse/ToAE/9.0/2024,10,07,09,41,52
+Tower of Nothing New/ToNN/6.73/2025,02,12,07,30,00
+Tower of Never Ending Fun/ToNEF/6.65/2023,12,26,10,08,26
+Tower of Minus Facility/ToMF/7.75/2024,11,19,12,09,53
+Tower of Cone Mesh Climbing/ToCMC/6.48/2023,04,20,12,31,08
+Tower of Voyaging Into The Earth/ToVITE/7.92/2024,11,26,15,58,12
+Tower of Arrantly Bodeful Cavern Depths/ToABCD/4.95/2024,10,13,13,43,58
+Tower of Mach Nine/ToMN/6.99/2025,04,21,16,55,13
+Tower of Growing Madness/ToGM/5.07/2023,04,17,11,19,10
+Tower of Clandestine Zones/ToCZ/4.97/2025,04,07,12,47,14
+Citadel of Increasing Claustrophobia/CoIC/7.83/2025,02,14,09,30,47
+Tower of Flame Restoration/ToFR/5.87/2023,07,26,12,27,59
+Tower of Time and Space Manipulation/ToTaSM/7.38/2023,05,01,14,40,24
+Tower of Latest Sensation/ToLS/5.27/2024,10,14,14,01,15
+Tower of White Space/ToWS/5.88/2023,08,29,12,12,14
+Tower of Power Laws/ToPL/7.86/2025,04,29,15,05,24
+Tower of Galactic Voyage/ToGV/5.18/2023,05,02,10,00,45
+Tower of Cosmic Tides/ToCT/3.98/2023,04,29,07,11,42
+Tower of Falling Up/ToFU/6.93/2024,10,28,07,32,33
+Tower of Destructive Fever/ToDF/4.72/2023,04,18,11,45,16
+Tower of Manic Lows/ToML/6.78/2023,05,01,09,55,09
+Tower of Yore/ToY/6.15/2023,09,19,10,19,32
+Citadel of Pyramid Escapades/CoPE/7.07/2023,05,02,13,23,50
+Tower of Resonant Landscapes/ToRL/5.26/2025,04,06,06,35,34
+Tower of Prismatic Instability/ToPI/7.67/2025,04,27,07,45,11
+Tower of Cylindrical Extensions/ToCE/5.61/2023,04,17,12,05,55
+Tower of Eye Candy/ToEC/7.01/2024,11,14,13,25,50
+Tower of X Madness/ToXM/4.96/2023,05,01,05,58,05
+Tower of Blast Power/ToBP/9.6/2025,04,27,12,11,25
+Tower of Dusk To Dawn/ToDTD/5.14/2024,10,13,12,51,06
+Tower of Swift and Precise Sections/ToSaPS/6.71/2023,09,04,13,29,52
+Tower of Expecting The Unexpected/ToETU/6.79/2025,04,19,05,29,07
+Tower of Melons In Time/ToMIT/3.76/2023,04,27,14,29,47
+Tower of Interstellar Terrarium/ToIT/5.63/2025,04,06,07,09,34
+Citadel of Overcoming The World's Imperfections/CoOTWI/7.99/2025,04,30,16,41,30
+Tower of Complexity and Volatility/ToCaV/10.18/2025,04,21,14,05,56
+Tower of A Tetromino Disaster/ToATD/4.78/2023,04,29,09,15,19
+Tower of Hollow Reformations/ToHR/8.88/2024,10,29,10,45,05
+Tower of No Return/ToNR/7.73/2024,07,06,05,38,04
