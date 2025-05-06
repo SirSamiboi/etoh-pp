@@ -1,0 +1,44 @@
+02/05/25
+updated icon to show new logo
+tweaked pp color formula to be cleaner and a bit more accurate
+updated difficulties
+
+30/04/25
+updated difficulties
+
+29/04/25
+updated difficulties
+
+28/04/25
+replaced ToB with ToVR
+removed/replaced towers are no longer stored in completion files
+updated difficulties
+
+26/04/25
+made pp history algorithm much faster
+added workaround for non-ascii display names
+sped up the listing of completions
+made intense color more readable and true to the game
+minimal tweaks to other colors
+updated difficulties
+
+24/04/25
+updated difficulties
+
+13/04/25
+added ToPL (mb i forgot)
+fixed bug where completed towers' difficulties would not be updated
+updated difficulties
+
+10/04/25
+updated difficulties
+
+06/04/25
+added ToNI
+non-canon completion files are now deleted if empty
+
+05/04/25
+added ToJE and zone 10 towers
+added local player completion files, allowing for much faster repeated loading
+made graph generation more efficient by avoiding repeated pp calculations
+updated difficulties
