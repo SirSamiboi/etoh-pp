@@ -1,6 +1,9 @@
 # etoh-pp
 A program that let's you see the skill level of any EToH player, including you and your friends, by assigning them a pp score (performance points) based on the towers they've beaten. Inspired by osu! and ScoreSaber's own pp systems.
 
+YOU NEED TO INSTALL FOLLOWING PYTHON LIBRARIES TO RUN THE PROGRAM:
+requests, datetime, matplotlib, sty
+
 *The method:*
 
 • First, a player's username is taken and a list of the towers they have beaten is obtained, by using the Roblox Badges API.
@@ -15,3 +18,5 @@ A program that let's you see the skill level of any EToH player, including you a
 
 This is really similar to what the ranking systems of osu! and Beat Saber do, and now I've made the equivalent for EToH.
 The program also allows you to see a graph of anyone's pp history, so you can see how they've improved over time, including when they've beaten a new hardest tower!
+
+dm me on discord @sirsamiboi if there are any incorrect difficulties!
