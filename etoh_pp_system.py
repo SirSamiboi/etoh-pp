@@ -21,44 +21,46 @@ diff_colors = [(118, 244, 71), (255, 255, 0), (254, 124, 0), (255, 50, 50), (160
 
 milestones = {}
 milestone_descriptions = {
-    "50pp": "Intermediate - Reach a total of 50pp. It's clear that you have potential. Good luck beating your \
+    "50pp": "Intermediate - Reach a total of 50pp. It's clear that you've got potential. Good luck beating your \
         \nfirst Hard towers.",
-    "100pp": "Capable - Reach a total of 100pp. You're becoming more accomplished as you beat your first \
+    "100pp": "Capable - Reach a total of 100pp. You're becoming more accomplished as you approach your first \
         \nDifficult towers. Things are beginning to ramp up.",
     "200pp": "Skilled - Reach a total of 200pp. Reaching this point already takes a special amount of effort and \
-        \nperseverance, so you should be proud of your progress thus far.",
+        \nperseverance, so you should be proud of your progress so far.",
     "500pp": "Adept - Reach a total of 500pp. You're reaching a level of skill that surpasses the majority of \
         \nobbyists, as you begin to weave through obstacles with more agility and confidence.",
     "1000pp": "Talented - Reach a total of 1,000pp. Towers are becoming much harder and more demanding, and yet \
-        \nyou push on. You've shown a proper talent in climbing towers one after the other, and you see \
+        \nyou push on. You've shown a proper talent in clearing towers one after the other, and you see \
         \nhardship as an invitation.",
     "2000pp": "Elite - Reach a total of 2,000pp. By now you're likely to have beaten your first Soul Crushing \
-        \ntower, and can confidently proclaim your status as an Elite Obbyist.",
+        \ntower, and can confidently proclaim your status as an elite obbyist.",
     "5000pp": "Expert - Reach a total of 5,000pp. You're pushing deeper into the Soul Crushing difficulties and \
         \nare reaching Extreme territory. Good luck on your journey even farther up the difficulty ladder.",
     "10000pp": "Master - Reach a total of 10,000pp. You continue to improve at an ever-increasing rate, and you \
-        \nfind that you can easily blitz through towers that previously took you hours of grinding.",
-    "20000pp": "Peerless - Reach a total of 20,000pp. Few can compare to your ability, as you've engraved yourself \
-        \ninto the upper echelons of the obbying community. You're one of the rare few even amongst \
+        \nfind that you can easily blitz through towers that previously seemed impossibly difficult.",
+    "20000pp": "Phenomenal - Reach a total of 20,000pp. Few can compare to your ability, as you've engraved \
+        \nyourself into the upper echelons of the obbying community. You're one of the rare few even amongst \
         \nSoul Crushing victors.",
-    "50000pp": "Phenomenal - Reach a total of 50,000pp. You've reached the top of the difficulty chart and \
-        \nhave conquered the Catastrophic difficulty. You can only look down towards all who struggle to \
-        \nachieve your level of skill, and yet you stand unmatched.",
+    "50000pp": "Legend - Reach a total of 50,000pp. You've reached the peak of the difficulty chart and \
+        \nhave conquered the Catastrophic difficulty. You can only look down upon all who aspire to achieve \
+        \nyour level of skill, and you stand near unmatched, with the only exception being the absolute best.",
     "100000pp": "Unreal - Reach a total of 100,000pp. Most players will never even come close to your skill level. \
         \nEither start playing Pit of Misery or go outside.",
-    "1t": "Getting Started - Beat your first tower. Good luck with the journey that lies ahead.",
-    "10t": "Novice - Beat 10 towers. Good job, but there's still a long way to go.",
+    "1t": "Getting Started - Beat your first tower. I hope you find enjoyment in overcoming the challenges \
+        \nthat lie ahead. Good luck with your journey.",
+    "10t": "Novice - Beat 10 towers. Well done, there's still a long way to go but you're making good progress.",
     "20t": "Amateur - Beat 20 towers. You're gaining skill and experience as you venture down through \
         \nThe Great Inferno, and up into the expansive Spatial System.",
     "50t": "Seasoned - Beat 50 towers. You're quickly improving, and the hours you've spent grinding towers \
         \nhave prepared you to tackle harder challenges.",
-    "69t": "Nice. - Beat 69 towers. OMG IT'S THE FUNNY NUMBER",
+    "69t": "Nice. - Beat 69 towers. It's the funny number! But seriously, the time and effort you've put into \
+        \nbeating towers is paying off.",
     "100t": "Triple Digits - Beat 100 towers. A monumental milestone that you should be very proud of. \
         \nYou've proven yourself to be a cut above the rest.",
     "200t": "One With Obbying - Beat 200 towers. Through your vast gathering of experience, you've gained deep \
-        \nunderstanding of EToH mechanics. You live and breathe obbying.",
+        \nunderstanding of EToH mechanics. It's clear that you greatly enjoy clearing tower after tower.",
     "300t": "I've Seen It All - Beat 300 towers. You've poured hundreds of hours into beating towers one after \
-        \nthe other, and it shows. Keep pushing forward, you're almost at the endpoint.",
+        \nanother, and it shows. Keep pushing forward, you're almost at the endpoint.",
     "all_non_sc": "Completionist - Beat every non-Soul Crushing tower in the game. If you'd like to keep living a \
         \nproper life outside of EToH, this is a reasonable point to end your jorney, but don't be surprised \
         \nif you come crawling back for more.",
