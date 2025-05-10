@@ -26,7 +26,7 @@ Tower of Killjoys/ToK/3.47/2125364325/2124457515
 Tower of Keyboard Yeeting/ToKY/4.14/2125364279/2124457505
 Tower of Stress/ToS/4.88/2125364284/2124457506
 Tower of Screen Punching/ToSP/5.29/2125364203/2124457497
-Tower of Rage/ToR/5.71/2125364213/2124457499
+Tower of Rage/ToR/5.58/2125364213/2124457499
 Tower of Impossible Expectations/ToIE/6.01/2125364211/2124457498
 Citadel of Laptop Splitting/CoLS/6.5/2125364319/2124457514
 Tower of True Skill/ToTS/7.09/2125364257/2124457504
@@ -103,9 +103,9 @@ Tower of Spiraling Heights/ToSH/1.76/2125383817/2124457918
 Tower of Getting Gnomed/ToGG/2.84/2125383766/2124457883
 Tower of Terrible Mondays/ToTM/3.72/2125383841/2124457920
 Tower of Elysium/ToE/3.92/2125383779/2124457915
-Tower of Linonophobia/ToL/4.24/2125383837/2124457919
+Tower of Linonophobia/ToL/4.5/2125383837/2124457919
 Tower of Leaning Ledges/ToLL/4.57/2125383785/2124457916
-Tower of Dust and Decay/ToDaD/5.01/2125383771/2124457884
+Tower of Dust and Decay/ToDaD/5.08/2125383771/2124457884
 Tower of Holy Flip/ToHF/6.34/2125383842/2124457921
 Citadel of Uneasiness/CoU/6.80/2125383807/2124580592
 Tower of Oblivion/ToO/6.97/2144113169/0
@@ -125,7 +125,7 @@ Steeple of Xenial Abyss/SoXA/5.90/2143764064/0
 Steeple of Wicked Grotto/SoWG/6.02/2143764075/0
 Tower of Shallow Waters/ToSW/6.64/2143764094/0
 Steeple of Involuntary Isolation/SoII/6.71/2143764118/0
-Tower of Tenebrous Depths/ToTD/6.95/2143764125/0
+Tower of Tenebrous Depths/ToTD/6.9/2143764125/0
 Steeple of Midnight Acropolis/SoMA/7.34/2143764150/0
 Steeple of Malignant Blight/SoMB/7.45/2143764143/0
 
@@ -179,9 +179,9 @@ Tower of Impossible Movement/ToIM/10.1/2125384270/2124459813
 Tower of Fruity Zeal/ToFZ/2.66/2150139836/0
 Tower of Viaduct Traversing/ToVT/3.88/2150139890/0
 Tower of Corner Wedge Climbing/ToCWC/4.23/2150139931/0
-Tower of Wanting More Time/ToWMT/5.15/2150139949/0
-Tower of Whisking It All/ToWIA/6.10/2150139994/0
-Tower of Shadowy Radiance/ToSR/6.26/2150140037/0
+Tower of Wanting More Time/ToWMT/5.03/2150139949/0
+Tower of Whisking It All/ToWIA/6.14/2150139994/0
+Tower of Shadowy Radiance/ToSR/6.15/2150140037/0
 Tower of Whirl of Winds/ToWoW/6.42/2150140003/0
 Tower of Largely Limited Luminance/ToLLL/6.55/2150140099/0
 Tower of Forever-Sleeping Flower/ToFSF/7.02/2150140154/0
@@ -193,10 +193,10 @@ Tower of Wicked Fortress/ToWF/9.39/2150140265/0
 # Ring 7
 
 Tower of Rushed Building/ToRB/4.58/2125394373/2124496390
-Tower of Feeling Lazy/ToFL/5.31/2125394352/2124496386
 Tower of Collective Collaboration/ToCC/5.34/2125394315/2124496382
+Tower of Feeling Lazy/ToFL/5.6/2125394352/2124496386
 Tower of Distorted Aerodynamics/ToDA/5.85/2125394317/2124496383
-Tower of Orientating Oscillating Opinions/ToOOO/6.11/2125394368/2124496389
+Tower of Orientating Oscillating Opinions/ToOOO/6.29/2125394368/2124496389
 Tower of Never Giving Up, Ever/ToNGUE/6.54/2125394365/2124496388
 Tower of Never-Ending Dizziness/ToNED/7.18/2125394357/2124496387
 Tower of Ultraviolet/ToU/7.55/2125394379/2124496391
@@ -254,8 +254,8 @@ Tower of Peace/ToP/3.37/2125416895/2124470903
 Tower of Mirrored Hecc/ToMH/3.91/2125416877/2124470900
 Tower of Contractual Obligations/ToCO/4.9/2125416881/2124470901
 Tower of Yearning Success/ToYS/4.92/2125416861/2124470874
-Tower of Absolute Vexation/ToAV/5.64/2125416816/2124470866
-Tower of Wanting Extra Levels/ToWEL/5.75/2125416812/2124470864
+Tower of Absolute Vexation/ToAV/5.71/2125416816/2124470866
+Tower of Wanting Extra Levels/ToWEL/5.91/2125416812/2124470864
 Tower of Ultimately Terrifying/ToUT/6.58/2125416814/2124470865
 Tower of Extreme Dystopia/ToED/7.11/2125416830/2124470869
 Tower of Really Nasty Ideas/ToRNI/7.19/2125416850/2124470871
@@ -372,7 +372,7 @@ Tower of Alien Radiance/ToAR/10.33/2125418638/0
 
 Tower of Foreign Domains/ToFD/3.64/2125418711/0
 Tower of Rock Climbing/ToRC/4.67/2125418742/0
-Tower of Conflicting Frontiers/ToCF/5.04/2125418658/0
+Tower of Conflicting Frontiers/ToCF/5.16/2125418658/0
 Tower of Break It, Buy It/ToBIBI/5.38/2125418817/0
 Tower of Angled Scenery/ToAS/5.54/2125418718/0
 Tower of Hefty Magnitude/ToHM/5.88/2125418764/0
@@ -395,9 +395,9 @@ Tower of Destructive Fever/ToDF/4.72/2127628615/0
 Tower of Growing Madness/ToGM/5.07/2127628496/0
 Tower of Cylindrical Extensions/ToCE/5.61/2127628515/0
 Tower of White Space/ToWS/5.88/2127628476/0
-Tower of Yore/ToY/6.15/2127628573/0
+Tower of Yore/ToY/6.27/2127628573/0
 Tower of Cone Mesh Climbing/ToCMC/6.48/2127628592/0
-Tower of Swift and Precise Sections/ToSaPS/6.71/2127628598/0
+Tower of Swift and Precise Sections/ToSaPS/6.78/2127628598/0
 Tower of Uncontrollable Ire/ToUI/7.71/2127628708/0
 Citadel of A Cruel Tale/CoACT/7.77/2127628655/0
 Tower of Fractured Memories/ToFM/10.00/2127628633/0
@@ -410,7 +410,7 @@ Tower of Cosmic Tides/ToCT/3.98/2143540875/0
 Tower of A Tetromino Disaster/ToATD/4.78/2143540994/0
 Tower of X Madness/ToXM/4.96/2143541564/0
 Tower of Galactic Voyage/ToGV/5.18/2143541572/0
-Tower of Flame Restoration/ToFR/5.87/2143541590/0
+Tower of Flame Restoration/ToFR/5.96/2143541590/0
 Tower of One Nine/ToON/6.33/2143541631/0
 Tower of Never Ending Fun/ToNEF/6.65/2143541637/0
 Tower of Manic Lows/ToML/6.78/2143541678/0
@@ -444,8 +444,8 @@ Tower of Empty Meaningless Patterns/ToEMP/11.42/4430474450821596/0
 
 # Zone 10
 
-Tower of Clandestine Zones/ToCZ/4.97/3272958117661218/0
-Tower of Resonant Landscapes/ToRL/5.26/3402148860296470/0
+Tower of Clandestine Zones/ToCZ/5.05/3272958117661218/0
+Tower of Resonant Landscapes/ToRL/5.32/3402148860296470/0
 Tower of Interstellar Terrarium/ToIT/5.63/336549132922735/0
 Tower of Valiant Verges/ToVV/5.86/679296910866412/0
 Tower of Expecting The Unexpected/ToETU/6.79/107230483116768/0
