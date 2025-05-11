@@ -8,7 +8,7 @@ YOU NEED TO INSTALL FOLLOWING PYTHON LIBRARIES TO RUN THE PROGRAM:
 
 • First, a player's username is taken and a list of the towers they have beaten is obtained, by using the Roblox Badges API.
 
-• Since every tower difficulty is around 2.5x harder than the last, we can calculate the relative difficulty of a certain tower compared to a Baseline Easy (1.00) tower.
+• By considering every tower difficulty to be around 2.5x harder than the last, we can calculate the relative difficulty of a certain tower compared to a Baseline Easy (1.00) tower.
 
 • This Baseline Easy Relative Difficulty, or BERD, is calculated for every tower a player has beaten, using the formula `2.5 ^ (diff - 1)`, where `diff` is the difficulty of a certain tower.
 
@@ -16,7 +16,7 @@ YOU NEED TO INSTALL FOLLOWING PYTHON LIBRARIES TO RUN THE PROGRAM:
 
 • Finally, the pp scores of all completed towers are added up, giving the total pp score of the player.
 
-This is really similar to what the ranking systems of osu! and Beat Saber do, and now I've made the equivalent for EToH.
+This is very similar to what the ranking systems of osu! and Beat Saber do, and now I've made the equivalent for EToH.
 The program also allows you to see a graph of anyone's pp history, so you can see how they've improved over time, including when they've beaten a new hardest tower!
 
-dm me on discord @sirsamiboi if there are any incorrect difficulties!
+DM me on discord @sirsamiboi if there are any incorrect difficulties. Thank you for using my program :)
