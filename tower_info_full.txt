@@ -135,7 +135,7 @@ Tower of Nice Views/ToNV/2.85/2125383930/2124457930
 Tower of Getting Kinda Dissappointed/ToGKD/3.52/2125383926/2124457929
 Tower of Rigid Success/ToRS/4.36/2125383920/2124457927
 Tower of Downward Mobility/ToDM/5.17/2125383947/2124457932
-Tower of Obvious Chaos/ToOC/5.85/2125383952/2124457934
+Tower of Obvious Chaos/ToOC/5.72/2125383952/2124457934
 Tower of Floral Fury/ToFF/6.05/2125383919/2124457926
 Tower of Extraordinary Adventures/ToEA/6.12/2125383938/2124457931
 Tower of Tokyo Heights/ToTH/6.46/2125383923/2124457928
@@ -246,7 +246,7 @@ Tower of Cruel Punishment/ToCP/11.99/2125416545/2124698827
 
 # Zone 1
 
-Tower of Zero Disturbances/ToZD/1.19/2125416899/0
+Tower of Zero Disturbances/ToZD/1.15/2125416899/0
 Tower of Peaceful Happiness and Tranquility/ToPHaT/1.5/2125416824/2124470868
 Tower of Atlantic Depths/ToAD/2.36/2125416834/2124470870
 Tower of Hands Sweating/ToHS/3.28/2125416818/2124470867
@@ -311,7 +311,7 @@ Tower of Icy Adventures/ToIA/6.97/2125419019/2124546744
 
 # Zone 3
 
-Tower of Six Feet Under/ToSFU/1.12/2125418434/2124516341
+Tower of Six Feet Under/ToSFU/1.05/2125418434/2124516341
 Tower of Overestimating Difficulty/ToOD/1.99/2125418437/2124516342
 Tower of Broken Bricks/ToBB/2.07/2125418444/2124516345
 Tower of Client Object Frenzy/ToCOF/2.77/2125418463/2124516367
