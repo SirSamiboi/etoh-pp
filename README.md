@@ -8,7 +8,7 @@ YOU NEED TO INSTALL FOLLOWING PYTHON LIBRARIES TO RUN THE PROGRAM:
 
 • First, a player's username is taken and a list of the towers they have beaten is obtained, by using the Roblox Badges API.
 
-• Since every tower difficulty is around 2.5x harder than the last, we can calculate the relative difficulty of a certain tower compared to a Baseline Easy (1.00) tower.
+• By considering every tower difficulty to be around 2.5x harder than the last, we can calculate the relative difficulty of a certain tower compared to a Baseline Easy (1.00) tower.
 
 • This Baseline Easy Relative Difficulty, or BERD, is calculated for every tower a player has beaten, using the formula `2.5 ^ (diff - 1)`, where `diff` is the difficulty of a certain tower.
 
