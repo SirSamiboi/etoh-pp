@@ -19,4 +19,4 @@ YOU NEED TO INSTALL FOLLOWING PYTHON LIBRARIES TO RUN THE PROGRAM:
 This is very similar to what the ranking systems of osu! and Beat Saber do, and now I've made the equivalent for EToH.
 The program also allows you to see a graph of anyone's pp history, so you can see how they've improved over time, including when they've beaten a new hardest tower!
 
-DM me on discord @sirsamiboi if there are any incorrect difficulties. Thanks for using my program :)
+DM me on discord @sirsamiboi if there are any incorrect difficulties. Thank you for using my program :)
