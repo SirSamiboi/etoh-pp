@@ -9,14 +9,13 @@ from sty import fg, rs
 
 
 univ_id = 3264581003
-user_id = None # test: 381696232
-towers = [] # tower_name, tower_abbr, tower_diff, badge_id, badge_id_old_place
+user_id = None
+towers = [] # tower_name, tower_abbr, tower_diff, badge_id, badge_id_old
 towers_completed = [] # *towers, date_completed, datetime_completed
 username = None
 displayname = None
 
 diff_names = ["Easy", "Medium", "Hard", "Difficult", "Challenging", "Intense", "Remorseless", "Insane", "Extreme", "Terrifying", "Catastrophic", "Horrific", "Unreal", "Nil"]
-subdiff_names = ["Bottom", "Bottom-Low", "Low", "Low-Mid", "Mid", "Mid-High", "High", "High-Peak", "Peak"]
 diff_colors = [(118, 244, 71), (255, 255, 0), (254, 124, 0), (255, 50, 50), (160, 0, 0), (71, 97, 128), (201, 0, 200), (0, 0, 255), (2, 138, 255), (0, 255, 255), (255, 255, 255), (150, 145, 255), (75, 0, 200), (121, 121, 129)]
 
 milestones = {}
@@ -71,8 +70,8 @@ milestone_descriptions = {
     "all_towers": "Perfectionist - Beat every single tower in the game. You're a legend."
 }
 
-BERD_SCALING = 2.5 # How much harder each diff is than the last
-WEIGHT_SCALING = 0.95 # The factor by which pp is reduced by per rank
+BERD_SCALING = 2.5 # How much harder each difficulty is than the last
+WEIGHT_SCALING = 0.95 # The factor by which pp is reduced, per rank
 MAIN_PATH = "/".join(os.path.dirname(__file__).split("\\")) # Location of program folder
 
 
@@ -94,9 +93,9 @@ def get_towers():
     
     for tower_info in tower_info_list:
         tower_info = tower_info.split("/")
-        name, abbr, diff, badge_id, badge_id_old_place = tower_info
+        name, abbr, diff, badge_id, badge_id_old = tower_info
         
-        towers.append({"tower_name":name, "tower_abbr":abbr, "tower_diff":float(diff), "badge_id":int(badge_id), "badge_id_old_place":int(badge_id_old_place)})
+        towers.append({"tower_name":name, "tower_abbr":abbr, "tower_diff":float(diff), "badge_id":int(badge_id), "badge_id_old":int(badge_id_old)})
     
     return towers
 
@@ -115,15 +114,20 @@ def get_user_id(username):
 
 
     url = f"https://users.roblox.com/v1/users/search?keyword={username.lower()}&limit=10"
-    response = requests.get(url)
+    
+    try:
+        response = requests.get(url)
+    except:
+        clear()
+        print("ERROR: Couldn't connect to the Roblox server. Please check your internet connection and try again.\n")
+        return (None, None)
     
     if response.status_code != 200:
         clear()
-
         if response.status_code == 429:
-            print(f"ERROR: Too many requests ({response.status_code}). Please wait and try again.\n")
+            print(f"ERROR: Too many requests. Please wait and try again.\n")
         else:
-            print(f"ERROR: Couldn't reach server ({response.status_code}). Please try again.\n")
+            print(f"ERROR: Couldn't reach server. Please wait and try again.\n")
 
         return (None, None)
     
@@ -174,31 +178,41 @@ def get_completions(user_id):
         datetime = dt.datetime.strptime(date, "%Y-%m-%d %H:%M:%S")
 
         if 1 <= float(diff) <= 14.99: # Ensures that the difficulty is valid
-            towers_completed.append({"tower_name":name, "tower_abbr":abbr, "tower_diff":float(diff), "badge_id":0, "badge_id_old_place":0, "date_completed":date, "datetime_completed":datetime})
+            towers_completed.append({"tower_name":name, "tower_abbr":abbr, "tower_diff":float(diff), "badge_id":0, "badge_id_old":0, "date_completed":date, "datetime_completed":datetime})
 
 
     towers_completed_names = [tower["tower_name"] for tower in towers_completed]
 
     
-    old_tower_badge_ids = [tower["badge_id_old_place"] for tower in towers if tower["tower_name"] not in towers_completed_names and tower["badge_id_old_place"] != 0]
-    
+    old_tower_badge_ids = [tower["badge_id_old"] for tower in towers if tower["tower_name"] not in towers_completed_names and tower["badge_id_old"] != 0]
+    loading_bar_count = 1 # Purely for visual feedback
+
     # Old place badges
     for group in range((len(old_tower_badge_ids)-1)//100+1):
 
         url = f"https://badges.roblox.com/v1/users/{user_id}/badges/awarded-dates?badgeIds={','.join([str(badge_id) for badge_id in old_tower_badge_ids[group*100:(group+1)*100]])}"
-        response = requests.get(url)
+
+        try:
+            response = requests.get(url)
+        except:
+            clear()
+            print("ERROR: Couldn't connect to the Roblox server. Please check your internet connection and try again.\n")
+            return []
         
         clear()
-        print(f"Getting completions...\n\n{fg(64,64,64)}Status code: {response.status_code} (group {group}, old place){rs.fg}")
+        print(f"Getting {displayname}'s completions...\n{fg(128,128,128)}{'|' * loading_bar_count}{rs.fg}")
+        loading_bar_count += 1
 
         if response.status_code != 200:
-            time.sleep(5)
-            return get_completions(user_id)
+            clear()
+            print("ERROR: Too many requests. Please wait and try again.\n")
+            return []
         
         data = response.json()
+
         for badge in data["data"]:
             for tower in towers:
-                if badge["badgeId"] == tower["badge_id_old_place"]:
+                if badge["badgeId"] == tower["badge_id_old"]:
                     tower_completed = tower
                     break
             
@@ -217,16 +231,25 @@ def get_completions(user_id):
     for group in range((len(tower_badge_ids)-1)//100+1):
 
         url = f"https://badges.roblox.com/v1/users/{user_id}/badges/awarded-dates?badgeIds={','.join([str(badge_id) for badge_id in tower_badge_ids[group*100:(group+1)*100]])}"
-        response = requests.get(url)
+        
+        try:
+            response = requests.get(url)
+        except:
+            clear()
+            print("ERROR: Couldn't connect to the Roblox server. Please check your internet connection and try again.\n")
+            return []
         
         clear()
-        print(f"Getting completions...\n\n{fg(64,64,64)}Status code: {response.status_code} (group {group}){rs.fg}")
+        print(f"Getting {displayname}'s completions...\n{fg(128,128,128)}{'|' * loading_bar_count}{rs.fg}")
+        loading_bar_count += 1
 
         if response.status_code != 200:
-            time.sleep(5)
-            return get_completions(user_id)
+            clear()
+            print("ERROR: Too many requests. Please wait and try again.\n")
+            return []
         
         data = response.json()
+
         for badge in data["data"]:
             for tower in towers:
                 if badge["badgeId"] == tower["badge_id"]:
@@ -258,6 +281,10 @@ def get_completions(user_id):
     
     completions_file.close()
     
+    if len(towers_completed) == 0:
+        clear()
+        print(f"{displayname} has not beaten any towers.\n")
+        return []
 
 
     return sorted(towers_completed, key=lambda tower:tower["date_completed"])
@@ -280,7 +307,7 @@ def load_non_canon_completions():
         datetime = dt.datetime.strptime(date, "%Y-%m-%d %H:%M:%S")
 
         if 1 <= float(diff) <= 14.99: # Ensures that the difficulty is valid
-            towers_completed.append({"tower_name":name, "tower_abbr":abbr, "tower_diff":float(diff), "badge_id":0, "badge_id_old_place":0, "date_completed":date, "datetime_completed":datetime})
+            towers_completed.append({"tower_name":name, "tower_abbr":abbr, "tower_diff":float(diff), "badge_id":0, "badge_id_old":0, "date_completed":date, "datetime_completed":datetime})
 
     return towers_completed
 
@@ -355,16 +382,14 @@ def calculate_pp(towers_completed, info_mode=0):
         total_pp += pp
         
         if rank < 100: # shows top 100 scores
-            diff_color = diff_colors[min(math.floor(diff) - 1, 13)] # diff_name = diff_names[math.floor(diff) - 1] # subdiff_name = subdiff_names[math.floor((diff % 1) * 9)]
+            diff_color = diff_colors[min(math.floor(diff) - 1, 13)]
             
             if info_mode == 1:
-                # tail = f"→ {pp:.2f}pp {fg(128,128,128)}({berd:.2f} * {weight:.0%}){rs.fg}"
                 tail = f"→ {pp:,.2f}pp {fg(128,128,128)}({berd:.2f} * {weight:.0%}){rs.fg}"
                 gap = " " * (11 - len(abbr) - len(f"{diff:.2f}"))
                 print(f"{fg(*diff_color)}{abbr} [{diff:.2f}]{rs.fg} {gap}{tail}")
 
             elif info_mode == 2:
-                # tail = f"→ {pp:.2f}pp {fg(128,128,128)}({berd:.2f} * {weight:.0%}) {date[:10]}{rs.fg}"
                 tail = f"→ {pp:,.2f}pp {fg(128,128,128)}({berd:.2f} * {weight:.0%}) {date[:10]}{rs.fg}"
                 gap = " " * (54 - len(abbr) - len(name) - len(f"{diff:.2f}"))
                 print(f"{fg(*diff_color)}{abbr} / {name} [{diff:.2f}]{rs.fg} {gap}{tail}")
@@ -674,7 +699,7 @@ def add_non_canon_completion():
         year, month, day, hour, minute, second = [str(num).zfill(2) for num in datetime]
         date = f"{year}-{month}-{day} {hour}:{minute}:{second}"
         datetime = dt.datetime.strptime(date, "%Y-%m-%d %H:%M:%S")
-        towers_completed.append({"tower_name":name, "tower_abbr":abbr, "tower_diff":float(diff), "badge_id":0, "badge_id_old_place":0, "date_completed":date, "datetime_completed":datetime})
+        towers_completed.append({"tower_name":name, "tower_abbr":abbr, "tower_diff":float(diff), "badge_id":0, "badge_id_old":0, "date_completed":date, "datetime_completed":datetime})
         
         print(f"{fg(*diff_color)}{name}{rs.fg} has been added to {displayname}'s non-canon tower completions!\n")
     
@@ -707,7 +732,7 @@ def remove_non_canon_completion():
         date = f"{year}-{month}-{day} {hour}:{minute}:{second}"
         datetime = dt.datetime.strptime(date, "%Y-%m-%d %H:%M:%S")
 
-        non_canon_completions[idx] = {"tower_name":name, "tower_abbr":abbr, "tower_diff":float(diff), "badge_id":0, "badge_id_old_place":0, "date_completed":date, "datetime_completed":datetime}
+        non_canon_completions[idx] = {"tower_name":name, "tower_abbr":abbr, "tower_diff":float(diff), "badge_id":0, "badge_id_old":0, "date_completed":date, "datetime_completed":datetime}
 
     names_list = [tower["tower_name"].lower() for tower in non_canon_completions]
     selection = " "
@@ -792,17 +817,17 @@ def display_info():
     print(f"========== Information about the pp system ========== \
         \n\nBaseline Easy Relative Difficulty, or BERD, is a measure of how difficult a tower is. For \
         \nsimplicity's sake, every difficulty is considered to be 2.5x as hard as the last. \
-        \n\nFor example, {fg(*diff_colors[2])}ToH{rs.fg}, a {fg(*diff_colors[2])}Mid Hard{rs.fg} tower with a difficulty of 3.45, has a BERD of 9.44, whereas {fg(*diff_colors[5])}CoLS{rs.fg}, a \
-        \n{fg(*diff_colors[5])}Low-Mid Intense{rs.fg} citadel with a difficulty of 6.43, has a BERD of 144.82. From this, we can say that \
-        \n{fg(*diff_colors[5])}CoLS{rs.fg} is around 15.3x harder than {fg(*diff_colors[2])}ToH{rs.fg}. \
+        \n\nFor example, {fg(*diff_colors[2])}ToH{rs.fg}, a {fg(*diff_colors[2])}Mid Hard{rs.fg} tower with a difficulty of 3.42, has a BERD of 9.18, whereas {fg(*diff_colors[5])}CoLS{rs.fg}, a \
+        \n{fg(*diff_colors[5])}Low-Mid Intense{rs.fg} citadel with a difficulty of 6.5, has a BERD of 154.41. From this, we can say that \
+        \n{fg(*diff_colors[5])}CoLS{rs.fg} is around 16.8x harder than {fg(*diff_colors[2])}ToH{rs.fg}. \
         \n\nWith {fg(*diff_colors[12])}Peak Unreal (13.99){rs.fg} being the highest humanly possible difficulty, the hardest possible tower \
         \nwould have a BERD of 147,652.47, meaning it would be considered around 1,000x harder than {fg(*diff_colors[5])}CoLS{rs.fg}. \
         \n\nThe performance points system calculates the BERD of each completed tower, then calculates the \
         \nweighted sum, where towers are ranked in order of difficulty and each tower awards 5% less pp than \
         \nthe one above it. This would mean that a completion of {fg(*diff_colors[12])}ToSF{rs.fg} would award 147,652.47pp \
-        \nby itself, while a {fg(*diff_colors[5])}CoLS{rs.fg} completion would reward 144.82pp if it were a user's hardest completed \
+        \nby itself, while a {fg(*diff_colors[5])}CoLS{rs.fg} completion would reward 154.41pp if it were a user's hardest completed \
         \ntower. However, if {fg(*diff_colors[5])}CoLS{rs.fg} were instead the player's 10th hardest tower, i.e. they would have beaten \
-        \nnine towers harder than {fg(*diff_colors[5])}CoLS{rs.fg}, then it would only award 91.27pp. This is because towers have a \
+        \nnine towers harder than {fg(*diff_colors[5])}CoLS{rs.fg}, then it would only award 97.32pp. This is because towers have a \
         \nlesser impact on a player's skill if the player is able to easily beat said towers. \
         \n\nThis program uses the Roblox Badges API to get a list of all EToH badges owned by a select player, \
         \nand then generates a list of towers beaten by that player, which is used to calculate the user's \
@@ -845,9 +870,13 @@ while running:
         user_id, displayname = get_user_id(username)
     
     clear()
-    print(f"{displayname}'s userId is {user_id}\n")
+    print(f"Getting {displayname}'s completions...\n")
     
     towers_completed = get_completions(user_id)
+
+    if len(towers_completed) == 0:
+        continue
+
     towers_completed = load_non_canon_completions()
     
     clear()
@@ -935,7 +964,3 @@ while running:
     
     if menu_option == "":
         running = False
-    
-    if len(towers_completed) == 0:
-        clear()
-        print(f"{displayname} has not beaten any towers.\n")

@@ -1,18 +1,18 @@
 # Format:
-# Full tower name / Short name / Difficulty / Badge ID / Badge ID at old place
+# Full tower name / Abbreviation / Difficulty / Badge ID / Badge ID in old place
 
 # Purgatorio
 
-# Tower of ??? ???/To??/.../.../0
+# Tower of Genesis/ToG/.../.../0
 # Tower of Perpetual Motion/ToPM/.../.../0
 # Tower of Buttons/ToB/.../.../0
-# Tower of V??? P???/ToVP/.../.../0
+# Tower of Various Pressures/ToVP/.../.../0
 # Tower of Critical Damage/ToCD/.../.../0
 # Tower of B??? M???/ToBM/.../.../0
 # Tower of Kinetic Potential/ToKP/.../.../0
 # Tower of No Strings Attached/ToNSA/.../.../0
 # Tower of Keys To Success/ToKTS/.../.../0
-# Tower of ???/To??/.../.../0
+# Tower of Dancing All Night/ToDAN/.../.../0
 # Citadel of Victory/CoV/.../.../0
 
 # Ring 1
