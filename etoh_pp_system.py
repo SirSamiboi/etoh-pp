@@ -185,7 +185,7 @@ def get_completions(user_id):
 
     
     old_tower_badge_ids = [tower["badge_id_old"] for tower in towers if tower["tower_name"] not in towers_completed_names and tower["badge_id_old"] != 0]
-    loading_bar_count = 1 # Purely for visual feedback
+    loading_count = 0 # Purely for visual feedback
 
     # Old place badges
     for group in range((len(old_tower_badge_ids)-1)//100+1):
@@ -200,8 +200,8 @@ def get_completions(user_id):
             return []
         
         clear()
-        print(f"Getting {displayname}'s completions...\n{fg(128,128,128)}{'|' * loading_bar_count}{rs.fg}")
-        loading_bar_count += 1
+        print(f"Getting {displayname}'s completions{'.' * (loading_count % 3 + 1)}\n")
+        loading_count += 1
 
         if response.status_code != 200:
             clear()
@@ -240,8 +240,8 @@ def get_completions(user_id):
             return []
         
         clear()
-        print(f"Getting {displayname}'s completions...\n{fg(128,128,128)}{'|' * loading_bar_count}{rs.fg}")
-        loading_bar_count += 1
+        print(f"Getting {displayname}'s completions{'.' * (loading_count % 3 + 1)}\n")
+        loading_count += 1
 
         if response.status_code != 200:
             clear()
