@@ -1,3 +1,6 @@
+16/05/25
+updated difficulties
+
 12/05/25
 updated messages to be clearer, and hid useless info used for developing the program
 

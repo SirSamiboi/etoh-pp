@@ -81,6 +81,7 @@ Steeple of Various Vivariums/SoVV/4.49/2125416767/2124924328
 Steeple of Flourishing Wastelands/SoFW/5.61/2125416775/2124924335
 Tower of Perilous Antipode/ToPA/6.00/2125416787/2124924341
 Steeple of Buoyant Automations/SoBA/6.03/2125416780/2124924339
+# Biotech Genesis/BG/.../.../0 (insert in correct position)
 
 # Ring 3
 
@@ -222,6 +223,25 @@ Tower of Suffering Outside/ToSO/9.53/2125416523/2124535629
 Tower of Externalizing Insanity/ToEI/9.96/2125416481/2124535616
 Tower of Generation Failure/ToGF/11.17/2125416507/2124535623
 
+# The Starlit Archives
+
+# Tower of Lethean Recollection/ToLR/3.99/1289207222729699/0
+# Tower of You're Late For Work/ToYLFW/4.73/3753365954140761/0
+# Tower of Pursuit Led Astray/ToPLA/4.96/2766842373955971/0
+# Steeple of Balloon Commune/SoBC/5.63/53740875259774/0
+# Steeple of After-Life Detention/SoALD/5.86/2634745481559417/0
+# Steeple of The Manufactured Monstrosity/SoTMM/5.89/2763253159461072/0
+# Tower of The Umbrella, The User/ToTUTU/5.95/165330479439546/0
+# Steeple of Two Minute Noodles/SoTMN/6.25/3730347966032771/0
+# Steeple of Itsy Bitsy/SoIB/6.4/391052562773885/0
+# Tower of Infiltrated Ruins/ToIR/6.41/4465046116074335/0
+# Tower of A Disillusioned Existence/ToADE/6.57/491118547215153/0
+# Tower of Warranted Retribution/ToWR/6.64/2122020127306477/0
+# Tower of House Without Home/ToHWH/7.26/4114801218397975/0
+# Tower of Fleeing From Everything Ending/ToFFEE/7.40/2919301511601152/0
+# Steeple of Cheesy Vengeance/SoCV/7.59/1358487401757254/0
+# Steeple of Forlorn Blizzard/SoFB/7.68/1391896070846757/0
+
 # Ring 9
 
 Tower of Great Overcomings/ToGO/6.49/2125416546/2124698828
@@ -252,7 +272,7 @@ Tower of Atlantic Depths/ToAD/2.36/2125416834/2124470870
 Tower of Hands Sweating/ToHS/3.28/2125416818/2124470867
 Tower of Peace/ToP/3.37/2125416895/2124470903
 Tower of Mirrored Hecc/ToMH/3.91/2125416877/2124470900
-Tower of Contractual Obligations/ToCO/4.9/2125416881/2124470901
+Tower of Contractual Obligations/ToCO/4.65/2125416881/2124470901
 Tower of Yearning Success/ToYS/4.92/2125416861/2124470874
 Tower of Absolute Vexation/ToAV/5.71/2125416816/2124470866
 Tower of Wanting Extra Levels/ToWEL/5.91/2125416812/2124470864
