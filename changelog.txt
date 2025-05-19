@@ -1,3 +1,6 @@
+20/05/25
+fixed tower count milestone dates being off by one
+
 18/05/25
 updated difficulties
 

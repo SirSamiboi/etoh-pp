@@ -573,40 +573,42 @@ def check_milestones(pp_history):
         if milestones["100000pp"] == False and pp >= 100000:
             milestones["100000pp"] = date
 
+        # The timedelta correction is done because the datetime used to check completions is at 00:00 of the given date
+        # So the towers completed on that date are not considered, as they are only counted when the date is ahead by a day
         if milestones["1t"] == False and len(completions) >= 1:
-            milestones["1t"] = date
+            milestones["1t"] = date - dt.timedelta(days=1)
 
         if milestones["10t"] == False and len(completions) >= 10:
-            milestones["10t"] = date
+            milestones["10t"] = date - dt.timedelta(days=1)
 
         if milestones["20t"] == False and len(completions) >= 20:
-            milestones["20t"] = date
+            milestones["20t"] = date - dt.timedelta(days=1)
 
         if milestones["50t"] == False and len(completions) >= 50:
-            milestones["50t"] = date
+            milestones["50t"] = date - dt.timedelta(days=1)
 
         if milestones["69t"] == False and len(completions) >= 69:
-            milestones["69t"] = date
+            milestones["69t"] = date - dt.timedelta(days=1)
 
         if milestones["100t"] == False and len(completions) >= 100:
-            milestones["100t"] = date
+            milestones["100t"] = date - dt.timedelta(days=1)
 
         if milestones["200t"] == False and len(completions) >= 200:
-            milestones["200t"] = date
+            milestones["200t"] = date - dt.timedelta(days=1)
 
         if milestones["300t"] == False and len(completions) >= 300:
-            milestones["300t"] = date
+            milestones["300t"] = date - dt.timedelta(days=1)
 
         if milestones["all_non_sc"] == False and sum(diff_completions[:7]) \
             == len([tower for tower in towers if tower["tower_diff"] < 8]):
-            milestones["all_non_sc"] = date
+            milestones["all_non_sc"] = date - dt.timedelta(days=1)
         
         if milestones["all_sc"] == False and sum(diff_completions[7:]) \
             == len([tower for tower in towers if tower["tower_diff"] >= 8]):
-            milestones["all_sc"] = date
+            milestones["all_sc"] = date - dt.timedelta(days=1)
 
         if milestones["all_towers"] == False and milestones["all_non_sc"] != False and milestones["all_sc"] != False:
-            milestones["all_towers"] = date
+            milestones["all_towers"] = date - dt.timedelta(days=1)
     
     milestones_achieved = len([date for date in list(milestones.values()) if date != False])
 
