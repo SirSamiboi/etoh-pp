@@ -77,7 +77,7 @@ Steeple of Overgrown Ascension/SoOA/3.16/2125416759/2124924323
 Steeple of Greenhouse Placidity/SoGP/3.7/2125416762/2124924326
 Steeple of Feudal Foliage/SoFF/3.80/2125416771/2124924332
 Steeple of Lost In Quiescence/SoLIQ/3.84/2125416758/2124924321
-Steeple of Various Vivariums/SoVV/4.12/2125416767/2124924328
+Steeple of Various Vivariums/SoVV/4.01/2125416767/2124924328
 Steeple of Flourishing Wastelands/SoFW/5.61/2125416775/2124924335
 Tower of Perilous Antipode/ToPA/6.00/2125416787/2124924341
 Steeple of Buoyant Automations/SoBA/6.03/2125416780/2124924339
@@ -91,7 +91,7 @@ Tower of Ancient Trickery/ToAT/2.62/2125365520/2124457793
 Tower of Deep Sighing/ToDS/2.76/2125365453/2124457786
 Tower of Fatness/ToF/3.54/2125365461/2124457787
 Tower of Winning Every Run/ToWER/3.55/2125365451/2124457785
-Tower of Slight Inconvenience/ToSI/4.22/2125365464/2124457788
+Tower of Slight Inconvenience/ToSI/4.01/2125365464/2124457788
 Tower of Wall Hugging/ToWH/4.37/2125365515/2124457792
 Tower of Lotsa Damage/ToLD/4.61/2125365494/2124457790
 Tower of Despair/ToD/5.24/2125365496/2124457791
@@ -287,7 +287,7 @@ Tower of Thinning Layers/ToTL/8.48/2125416865/2124470876
 
 Steeple of Mystical Marine/SoMM/1.76/2125418964/2124776615
 Steeple of Abyssal Upturn/SoAU/3.74/2125419000/2124776625
-Steeple of Sunny Island Shenanigans/SoSIS/4.01/2125418995/2124776622
+Steeple of Sunny Island Shenanigans/SoSIS/4.03/2125418995/2124776622
 Steeple of Aquatic Rallies/SoAR/4.34/2125418997/2124776624
 Steeple of Desolate Isles/SoDI/5.21/2125418969/2124776616
 Steeple of Hallucinatory Spectacles/SoHS/5.25/2125418989/2124776619
@@ -303,7 +303,7 @@ Steeple of Dusty Dunes/SoDD/6.32/2125419001/2124776626
 Tower of Venomous Resonance/ToVR/2.68/2125418290/2124479678
 Tower of Slanted Anticipation/ToSA/2.98/2125418346/2124479684
 Tower of Ground Level Ascension/ToGLA/3.48/2125418311/2124479682
-Tower of Troublesome Adventures/ToTA/3.93/2125418352/2124479687
+Tower of Troublesome Adventures/ToTA/4.05/2125418352/2124479687
 Tower of Unearthed Discoveries/ToUD/4.21/2125418354/2124479688
 Tower of Dreams and Caverns/ToDaC/5.02/2125418292/2124479679
 Tower of Pleasant Fantasies/ToPF/5.62/2125418326/2124479683
@@ -337,7 +337,7 @@ Tower of Broken Bricks/ToBB/2.07/2125418444/2124516345
 Tower of Client Object Frenzy/ToCOF/2.77/2125418463/2124516367
 Tower of Cracked, Crushed Cubes/ToCCC/3.38/2125418441/2124516343
 Tower of Xanthophobia/ToX/3.81/2125418479/2124516368
-Tower of Dimensional Hopping/ToDH/4.28/2125418455/2124516361
+Tower of Dimensional Hopping/ToDH/4.38/2125418455/2124516361
 Tower of Mild Agitation/ToMA/4.59/2125418450/2124516352
 Tower of Cogs and Steam/ToCaS/4.66/2125418452/2124516357
 Tower of Requiring Critical Help/ToRCH/4.94/2125418458/2124516363
