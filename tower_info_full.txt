@@ -21,7 +21,7 @@ Tower of Annoyingly Simple Trials/ToAST/1.21/2125364300/2124457509
 Tower of Anger/ToA/1.5/2125364239/2124457501
 Tower of Madness/ToM/2.12/2125364247/2124457502
 Tower of Noticeable Infuriation/ToNI/2.8/2125394398/0
-Tower of Hecc/ToH/3.42/2125363409/2124457496
+Tower of Hecc/ToH/3.3/2125363409/2124457496
 Tower of Killjoys/ToK/3.47/2125364325/2124457515
 Tower of Keyboard Yeeting/ToKY/4.1/2125364279/2124457505
 Tower of Stress/ToS/4.88/2125364284/2124457506
@@ -36,8 +36,8 @@ Thanos Tower/TT/8.15/2125364309/2124457513
 
 Steeple of Meaningless Decisions/SoMD/1.22/2125416661/2124659768
 Tower of Jolly Good Fun/ToJGF/1.65/2125416710/2124659777
+Steeple of Low Woe/SoLW/3.78/2125416666/2124659770
 Steeple of Pursuit/SoP/2.82/2125416664/2124659769
-Steeple of Low Woe/SoLW/3.00/2125416666/2124659770
 Steeple of Uninstalling Roblox/SoUR/3.85/2125416670/2124659771
 Tower of Immense Ire/ToII/4.24/2125416720/2124659780
 Steeple of Wall Punching/SoWP/4.57/2125416683/2124659772
@@ -118,7 +118,7 @@ Tower of Inception/ToI/10.87/2125383801/2124457917
 
 Steeple of Resort In Stasis/SoRIS/4.71/2143764006/0
 Steeple of Ruinous Abate/SoRA/4.87/2143764028/0
-Tower of Ancestral Interference/ToAI/4.98/2143764022/0
+Tower of Ancestral Interference/ToAI/4.99/2143764022/0
 Steeple of Descendance/SoD/5.15/2143764044/0
 Tower of There Is No Tower/ToTINT/5.42/2143764050/0
 Steeple of Guiding Lights/SoGL/5.66/2143764056/0
@@ -269,8 +269,8 @@ Tower of Cruel Punishment/ToCP/11.99/2125416545/2124698827
 Tower of Zero Disturbances/ToZD/1.15/2125416899/0
 Tower of Peaceful Happiness and Tranquility/ToPHaT/1.5/2125416824/2124470868
 Tower of Atlantic Depths/ToAD/2.36/2125416834/2124470870
-Tower of Hands Sweating/ToHS/3.28/2125416818/2124470867
-Tower of Peace/ToP/3.37/2125416895/2124470903
+Tower of Peace/ToP/3.26/2125416895/2124470903
+Tower of Hands Sweating/ToHS/3.48/2125416818/2124470867
 Tower of Mirrored Hecc/ToMH/3.91/2125416877/2124470900
 Tower of Contractual Obligations/ToCO/4.46/2125416881/2124470901
 Tower of Yearning Success/ToYS/4.92/2125416861/2124470874
@@ -302,7 +302,7 @@ Steeple of Dusty Dunes/SoDD/6.32/2125419001/2124776626
 
 Tower of Venomous Resonance/ToVR/2.68/2125418290/2124479678
 Tower of Slanted Anticipation/ToSA/2.98/2125418346/2124479684
-Tower of Ground Level Ascension/ToGLA/3.48/2125418311/2124479682
+Tower of Ground Level Ascension/ToGLA/3.57/2125418311/2124479682
 Tower of Troublesome Adventures/ToTA/4.05/2125418352/2124479687
 Tower of Unearthed Discoveries/ToUD/4.21/2125418354/2124479688
 Tower of Dreams and Caverns/ToDaC/5.02/2125418292/2124479679
@@ -335,13 +335,13 @@ Tower of Six Feet Under/ToSFU/1.05/2125418434/2124516341
 Tower of Overestimating Difficulty/ToOD/1.99/2125418437/2124516342
 Tower of Broken Bricks/ToBB/2.07/2125418444/2124516345
 Tower of Client Object Frenzy/ToCOF/2.77/2125418463/2124516367
-Tower of Cracked, Crushed Cubes/ToCCC/3.38/2125418441/2124516343
+Tower of Cracked, Crushed Cubes/ToCCC/3.58/2125418441/2124516343
 Tower of Xanthophobia/ToX/3.81/2125418479/2124516368
 Tower of Dimensional Hopping/ToDH/4.38/2125418455/2124516361
 Tower of Mild Agitation/ToMA/4.59/2125418450/2124516352
 Tower of Cogs and Steam/ToCaS/4.66/2125418452/2124516357
 Tower of Requiring Critical Help/ToRCH/4.94/2125418458/2124516363
-Citadel of Tricky Situations/CoTS/4.94/2125418491/2124516375
+Citadel of Tricky Situations/CoTS/4.98/2125418491/2124516375
 Tower of Menacing Creations/ToMC/5.56/2125418490/2124516374
 Tower of Infuriating Obstacles/ToIO/6.08/2125418432/2124516340
 Tower of Quirky Contraptions/ToQC/6.18/2125418461/2124516366
@@ -356,7 +356,7 @@ Tower of Modernistic Design Choices/ToMDC/1.87/2125612958/0
 
 Tower of Fairly Simple Challenges/ToFSC/1.58/2125418571/2124603907
 Tower of Aquatic Contemplation/ToAC/2.95/2125418569/2124603906
-Tower of Fun and Simple Trials/ToFaST/3.26/2125418562/2124603903
+Tower of Fun and Simple Trials/ToFaST/3.29/2125418562/2124603903
 Tower of Up Is Down/ToUID/3.56/2125418547/2124603897
 Tower of Wicked Wedges/ToWW/4.48/2125418529/2124603890
 Tower of Elevator Travelling/ToET/4.51/2125418556/2124603901
