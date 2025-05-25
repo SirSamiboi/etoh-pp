@@ -1,3 +1,7 @@
+25/05/25
+made grayed-out text darker for more visual clarity
+tweaked the displays of milestone completion dates
+
 24/05/25
 updated difficulties (rip SoLW)
 
@@ -14,7 +18,8 @@ updated difficulties
 updated difficulties
 
 12/05/25
-updated messages to be clearer, and hid useless info used for developing the program
+updated messages to be clearer
+hid useless info used for developing the program
 
 11/05/25
 updated difficulties

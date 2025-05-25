@@ -340,7 +340,7 @@ def display_sorted_completions(order):
         
         diff_color = diff_colors[min(math.floor(diff) - 1, 13)]
 
-        print(f"{fg(*diff_color)}{abbr} / {name} [{diff:.2f}] {fg(128,128,128)}({date[:10]}){rs.fg}")
+        print(f"{fg(*diff_color)}{abbr} / {name} [{diff:.2f}] {fg(100,100,100)}({date[:10]}){rs.fg}")
 
         time.sleep(0.002)
 
@@ -366,9 +366,9 @@ def calculate_pp(towers_completed, info_mode=0):
     print(f"========== {displayname}'s top completions ==========")
 
     if info_mode == 1:
-        print(f"\nName [Difficulty] → pp amount {fg(128,128,128)}(BERD * weight){rs.fg}\n")
+        print(f"\nName [Difficulty] → pp amount {fg(100,100,100)}(BERD * weight){rs.fg}\n")
     elif info_mode == 2:
-        print(f"\nShort / Full tower name [Difficulty]                         → pp amount {fg(128,128,128)}(BERD * weight) Completion date{rs.fg}\n")
+        print(f"\nShort / Full tower name [Difficulty]                         → pp amount {fg(100,100,100)}(BERD * weight) Completion date{rs.fg}\n")
     
     for rank, tower in enumerate(completions):
         name = tower["tower_name"]
@@ -385,12 +385,12 @@ def calculate_pp(towers_completed, info_mode=0):
             diff_color = diff_colors[min(math.floor(diff) - 1, 13)]
             
             if info_mode == 1:
-                tail = f"→ {pp:,.2f}pp {fg(128,128,128)}({berd:.2f} * {weight:.0%}){rs.fg}"
+                tail = f"→ {pp:,.2f}pp {fg(100,100,100)}({berd:.2f} * {weight:.0%}){rs.fg}"
                 gap = " " * (11 - len(abbr) - len(f"{diff:.2f}"))
                 print(f"{fg(*diff_color)}{abbr} [{diff:.2f}]{rs.fg} {gap}{tail}")
 
             elif info_mode == 2:
-                tail = f"→ {pp:,.2f}pp {fg(128,128,128)}({berd:.2f} * {weight:.0%}) {date[:10]}{rs.fg}"
+                tail = f"→ {pp:,.2f}pp {fg(100,100,100)}({berd:.2f} * {weight:.0%}) {date[:10]}{rs.fg}"
                 gap = " " * (54 - len(abbr) - len(name) - len(f"{diff:.2f}"))
                 print(f"{fg(*diff_color)}{abbr} / {name} [{diff:.2f}]{rs.fg} {gap}{tail}")
             
@@ -494,7 +494,7 @@ def plot_history_graph(pp_history):
 
         elif pp != pp_history[idx-1]["pp"]: # adds point for change in pp
             graph.plot(date, pp, marker=".", markersize=8, color="C0", zorder=10)
-            print(f"{fg(128,128,128)}{str(date)[:10]}: {pp:,.2f}pp{rs.fg}")
+            print(f"{fg(100,100,100)}{str(date)[:10]}: {pp:,.2f}pp{rs.fg}")
         
         elif idx != len(pp_history) - 1 and pp != pp_history[idx+1]["pp"]: # adds point before change in pp
             graph.plot(date, pp, marker=".", markersize=8, color="C0", zorder=10)
@@ -617,7 +617,7 @@ def check_milestones(pp_history):
 
     for milestone, date in milestones.items():
         if date != False:
-            print(f"\n{fg(0,255,0)}{milestone_descriptions[milestone]}{fg(128,128,128)}\n(achieved {str(date)[:10]}){rs.fg}")
+            print(f"\n{fg(0,255,0)}{milestone_descriptions[milestone]}{fg(100,100,100)}\n(achieved on {str(date)[:10]}){rs.fg}")
         else:
             print(f"\n{fg(64,48,48)}{milestone_descriptions[milestone]}{rs.fg}")
         
@@ -751,7 +751,7 @@ def remove_non_canon_completion():
             
             diff_color = diff_colors[min(math.floor(diff) - 1, 13)]
 
-            print(f"{fg(*diff_color)}{abbr} / {name} [{diff:.2f}] {fg(128,128,128)}({date[:10]}){rs.fg}")
+            print(f"{fg(*diff_color)}{abbr} / {name} [{diff:.2f}] {fg(100,100,100)}({date[:10]}){rs.fg}")
         
         print("")
         
