@@ -1,3 +1,6 @@
+27/05/25
+updated difficulties
+
 25/05/25
 made grayed-out text darker for more visual clarity
 tweaked the displays of milestone completion dates
