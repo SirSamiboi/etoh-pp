@@ -386,7 +386,7 @@ def calculate_pp(towers_completed, info_mode=0):
             
             if info_mode == 1:
                 tail = f"→ {pp:,.2f}pp {fg(100,100,100)}({berd:.2f} * {weight:.0%}){rs.fg}"
-                gap = " " * (11 - len(abbr) - len(f"{diff:.2f}"))
+                gap = " " * (14 - len(abbr) - len(f"{diff:.2f}"))
                 print(f"{fg(*diff_color)}{abbr} [{diff:.2f}]{rs.fg} {gap}{tail}")
 
             elif info_mode == 2:
