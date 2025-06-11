@@ -52,8 +52,6 @@ milestone_descriptions = {
         \nThe Great Inferno, and up into the expansive Spatial System.",
     "50t": "Seasoned - Beat 50 towers. You're quickly improving, and the hours you've spent grinding towers \
         \nhave prepared you to tackle harder challenges.",
-    "69t": "Nice. - Beat 69 towers. It's the funny number! But seriously, the time and effort you've put into \
-        \nbeating towers is paying off.",
     "100t": "Triple Digits - Beat 100 towers. A monumental milestone that you should be very proud of. \
         \nYou've proven yourself to be a cut above the rest.",
     "200t": "One With Obbying - Beat 200 towers. Through your vast gathering of experience, you've gained deep \
@@ -125,7 +123,7 @@ def get_user_id(username):
     if response.status_code != 200:
         clear()
         if response.status_code == 429:
-            print(f"ERROR: Too many requests. Please wait and try again.\n")
+            print(f"ERROR: Too many requests. Please wait a minute and try again.\n")
         else:
             print(f"ERROR: Couldn't reach server. Please wait and try again.\n")
 
@@ -205,7 +203,7 @@ def get_completions(user_id):
 
         if response.status_code != 200:
             clear()
-            print("ERROR: Too many requests. Please wait and try again.\n")
+            print("ERROR: Too many requests. Please wait a minute and try again.\n")
             return []
         
         data = response.json()
@@ -245,7 +243,7 @@ def get_completions(user_id):
 
         if response.status_code != 200:
             clear()
-            print("ERROR: Too many requests. Please wait and try again.\n")
+            print("ERROR: Too many requests. Please wait a minute and try again.\n")
             return []
         
         data = response.json()
@@ -404,7 +402,8 @@ def calculate_pp(towers_completed, info_mode=0):
     # pp_color = diff_colors[math.floor(pp_color_data) - 1]
 
     # The pp score's color is found by passing its value into this formula, and then selecting the corresponding difficulty color
-    pp_color_data = math.log(1 + total_pp / 5, 2.5) # The exact formula was found solely through testing and data, and may be inaccurate (does it really matter though?)
+    # The exact formula was found solely through testing and data, and may be inaccurate (does it really matter though?)
+    pp_color_data = math.log(1 + total_pp / 5, 2.5)
     pp_color = diff_colors[min(math.floor(pp_color_data), 13)]
 
     print("")
@@ -508,107 +507,37 @@ def plot_history_graph(pp_history):
 # Checks which milestones have been achieved by a player
 def check_milestones(pp_history):
     milestones = {milestone:False for milestone in [
-        "50pp",
-        "100pp",
-        "200pp",
-        "500pp",
-        "1000pp",
-        "2000pp",
-        "5000pp",
-        "10000pp",
-        "20000pp",
-        "50000pp",
-        "100000pp",
-        "1t",
-        "10t",
-        "20t",
-        "50t",
-        "69t",
-        "100t",
-        "200t",
-        "300t",
-        "all_non_sc",
-        "all_sc",
-        "all_towers"
+        "50pp", "100pp", "200pp", "500pp", "1000pp", "2000pp", "5000pp", "10000pp", "20000pp", "50000pp", "100000pp",
+        "1t", "10t", "20t", "50t", "100t", "200t", "300t",
+        "all_non_sc", "all_sc", "all_towers"
     ]}
 
     for idx, data in enumerate(pp_history):
-        date = data["date"]
+        date = data["date"] + dt.timedelta(days=1) - dt.timedelta(seconds=1)
         pp = data["pp"]
         hardest = data["hardest"]
         completions = [tower for tower in towers_completed if tower["datetime_completed"] < date]
 
         diff_completions = [[math.floor(tower["tower_diff"]) for tower in completions].count(i) for i in range(1,14)]
 
-        if milestones["50pp"] == False and pp >= 50:
-            milestones["50pp"] = date
+        for milestone in [50, 100, 200, 500, 1000, 2000, 5000, 10000, 20000, 50000, 100000]:
+            if milestones[f"{milestone}pp"] == False and pp >= milestone:
+                milestones[f"{milestone}pp"] = date
 
-        if milestones["100pp"] == False and pp >= 100:
-            milestones["100pp"] = date
-
-        if milestones["200pp"] == False and pp >= 200:
-            milestones["200pp"] = date
-
-        if milestones["500pp"] == False and pp >= 500:
-            milestones["500pp"] = date
-
-        if milestones["1000pp"] == False and pp >= 1000:
-            milestones["1000pp"] = date
-
-        if milestones["2000pp"] == False and pp >= 2000:
-            milestones["2000pp"] = date
-
-        if milestones["5000pp"] == False and pp >= 5000:
-            milestones["5000pp"] = date
-
-        if milestones["10000pp"] == False and pp >= 10000:
-            milestones["10000pp"] = date
-
-        if milestones["20000pp"] == False and pp >= 20000:
-            milestones["20000pp"] = date
-
-        if milestones["50000pp"] == False and pp >= 50000:
-            milestones["50000pp"] = date
-
-        if milestones["100000pp"] == False and pp >= 100000:
-            milestones["100000pp"] = date
-
-        # The timedelta correction is done because the datetime used to check completions is at 00:00 of the given date
-        # So the towers completed on that date are not considered, as they are only counted when the date is ahead by a day
-        if milestones["1t"] == False and len(completions) >= 1:
-            milestones["1t"] = date - dt.timedelta(days=1)
-
-        if milestones["10t"] == False and len(completions) >= 10:
-            milestones["10t"] = date - dt.timedelta(days=1)
-
-        if milestones["20t"] == False and len(completions) >= 20:
-            milestones["20t"] = date - dt.timedelta(days=1)
-
-        if milestones["50t"] == False and len(completions) >= 50:
-            milestones["50t"] = date - dt.timedelta(days=1)
-
-        if milestones["69t"] == False and len(completions) >= 69:
-            milestones["69t"] = date - dt.timedelta(days=1)
-
-        if milestones["100t"] == False and len(completions) >= 100:
-            milestones["100t"] = date - dt.timedelta(days=1)
-
-        if milestones["200t"] == False and len(completions) >= 200:
-            milestones["200t"] = date - dt.timedelta(days=1)
-
-        if milestones["300t"] == False and len(completions) >= 300:
-            milestones["300t"] = date - dt.timedelta(days=1)
+        for milestone in [1, 10, 20, 50, 100, 200, 300]:
+            if milestones[f"{milestone}t"] == False and len(completions) >= milestone:
+                milestones[f"{milestone}t"] = date
 
         if milestones["all_non_sc"] == False and sum(diff_completions[:7]) \
             == len([tower for tower in towers if tower["tower_diff"] < 8]):
-            milestones["all_non_sc"] = date - dt.timedelta(days=1)
+            milestones["all_non_sc"] = date
         
         if milestones["all_sc"] == False and sum(diff_completions[7:]) \
             == len([tower for tower in towers if tower["tower_diff"] >= 8]):
-            milestones["all_sc"] = date - dt.timedelta(days=1)
+            milestones["all_sc"] = date
 
         if milestones["all_towers"] == False and milestones["all_non_sc"] != False and milestones["all_sc"] != False:
-            milestones["all_towers"] = date - dt.timedelta(days=1)
+            milestones["all_towers"] = date
     
     milestones_achieved = len([date for date in list(milestones.values()) if date != False])
 
@@ -826,7 +755,7 @@ def display_info():
         \nwould have a BERD of 147,652.47, meaning it would be considered around 1,000x harder than {fg(*diff_colors[5])}CoLS{rs.fg}. \
         \n\nThe performance points system calculates the BERD of each completed tower, then calculates the \
         \nweighted sum, where towers are ranked in order of difficulty and each tower awards 5% less pp than \
-        \nthe one above it. This would mean that a completion of {fg(*diff_colors[12])}ToSF{rs.fg} would award 147,652.47pp \
+        \nthe one above it. This would mean that a completion of {fg(*diff_colors[12])}ToTDTHL{rs.fg} would award 147,652.47pp \
         \nby itself, while a {fg(*diff_colors[5])}CoLS{rs.fg} completion would reward 154.41pp if it were a user's hardest completed \
         \ntower. However, if {fg(*diff_colors[5])}CoLS{rs.fg} were instead the player's 10th hardest tower, i.e. they would have beaten \
         \nnine towers harder than {fg(*diff_colors[5])}CoLS{rs.fg}, then it would only award 97.32pp. This is because towers have a \
@@ -834,10 +763,11 @@ def display_info():
         \n\nThis program uses the Roblox Badges API to get a list of all EToH badges owned by a select player, \
         \nand then generates a list of towers beaten by that player, which is used to calculate the user's \
         \nperformance points and create a graph of their pp over time. \
-        \n\nDon't be demotivated because your pp score is inreasing slowly! The main factor that decides your \
-        \npp is the limit of your skill, i.e. beating hard towers that push you to the limit. Expect your pp \
-        \nto change very slightly when beating towers multiple difficulties below your hardest. Spending lots \
-        \nof time playing does not directly translate to a much higher pp score. \
+        \n\nDon't be demotivated if your pp score is barely increasing! The main factor that decides your pp \
+        \nis the limit of your skill, i.e. beating hard towers that push you to the limit. Expect your pp to \
+        \nincrease very slightly when beating towers multiple difficulties below your hardest. Spending lots \
+        \nof time playing does not directly translate to a much higher pp score. Also, the aforementioned \
+        \nBERD and pp values may not be entirely up to date. \
         \n\n\n{fg(255,255,200)}Thank you so much for using this program!{rs.fg} I would also like to thank the people behind {fg(220,45,45)}jtoh.pro{rs.fg}, \
         \n{fg(77,92,191)}towerstats.com{rs.fg}, {fg(255,102,170)}osu!{rs.fg}, {fg(254,223,21)}Score{fg(233,189,32)}Saber{rs.fg} and {fg(150,29,144)}Beat{fg(119,31,157)}Leader{rs.fg} for inspiring me to make this program and for \
         \nkeeping me motivated. \

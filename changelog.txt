@@ -1,3 +1,8 @@
+11/06/25
+made milestone checking much neater
+removed 69 tower milestone (it's 2025)
+tweaked program info text
+
 08/06/25
 increased spacing on simple pp menu for more visual clarity
 
