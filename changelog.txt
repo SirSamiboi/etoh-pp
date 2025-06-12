@@ -1,3 +1,6 @@
+12/06/25
+made the installation process much clearer (thanks LovelyJacob!)
+
 11/06/25
 made milestone checking much neater
 removed 69 tower milestone (it's 2025)

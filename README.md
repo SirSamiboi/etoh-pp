@@ -1,15 +1,16 @@
 # etoh-pp
-A Python program that let's you see the skill level of any EToH player, including you and your friends, by assigning them a pp score (performance points) based on the towers they've beaten. Inspired by osu! and ScoreSaber's own pp systems.
+A Python program that let's you see the skill level of any EToH player, including you and your friends, by assigning them a performance points (or pp) based on the towers they've beaten. Inspired by osu! and ScoreSaber's own pp systems.
 
-## Installation 
+## Installation
 
 To get started you will need to do the following:
 
-1) Install python if you have not already. Official downloads can be found at https://www.python.org/downloads/ 
+1) Install Python if you have not already. Official downloads can be found at https://www.python.org/downloads/
 2) Download the [latest release](https://github.com/SirSamiboi/etoh-pp/releases/latest). If you are unsure which file to download, choose `Source code (zip)`.
-3) Unzip the file, then open the unziped folder in a terminal of your choosing. **Note:** Make sure you are in the correct directory. You can run `ls` to verify that you have `etoh_pp_system.py` listed as one of the files.
-4) Now you'll want to install the needed dependencies, run `pip install -r requirements.txt` OR `py -m pip install -r requirements.txt`.
-5) To start the program, run `py etoh_pp_system.py`! From there, follow the text prompts.
+3) Unzip the file, then open the unziped folder in a terminal of your choosing. Note: Make sure you are in the correct directory. You can run `ls` to verify that you have `etoh_pp_system.py` listed as one of the files.
+4) Now you'll want to install the needed dependencies, run `pip install -r requirements.txt` OR `py -m pip install -r requirements.txt`. If one of these doesn't work, try the other.
+5) To start the program, run `py etoh_pp_system.py`! You can also double-click the `etoh_pp_system.py` file in the program folder. From there, follow the text prompts.
+6) You can create a desktop shortcut of `etoh_pp_system.py` for easier access. By right-clicking the shortcut, then selecting Properties → Change Icon, you can go to the program folder and use the `icon` file as the shortcut's icon.
 
 ## How does it work?
 
