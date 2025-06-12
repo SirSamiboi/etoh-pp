@@ -396,12 +396,12 @@ def calculate_pp(towers_completed, info_mode=0):
     
     diff_completions = [[math.floor(tower["tower_diff"]) for tower in towers_completed].count(i+1) for i in range(len(diff_names))]
 
-    # The pp score's color found by finding the average BERD of the player's top 5 hardest towers, then taking the 2.5th log of this average
+    # The pp total's color found by finding the average BERD of the player's top 5 hardest towers, then taking the 2.5th log of this average
     # pp_color_data = [2.5 ** (tower["tower_diff"]) for tower in completions[:5]]
     # pp_color_data = math.log(sum(pp_color_data) / len(pp_color_data), 2.5)
     # pp_color = diff_colors[math.floor(pp_color_data) - 1]
 
-    # The pp score's color is found by passing its value into this formula, and then selecting the corresponding difficulty color
+    # The pp total's color is found by passing its value into this formula, and then selecting the corresponding difficulty color
     # The exact formula was found solely through testing and data, and may be inaccurate (does it really matter though?)
     pp_color_data = math.log(1 + total_pp / 5, 2.5)
     pp_color = diff_colors[min(math.floor(pp_color_data), 13)]
@@ -763,10 +763,10 @@ def display_info():
         \n\nThis program uses the Roblox Badges API to get a list of all EToH badges owned by a select player, \
         \nand then generates a list of towers beaten by that player, which is used to calculate the user's \
         \nperformance points and create a graph of their pp over time. \
-        \n\nDon't be demotivated if your pp score is barely increasing! The main factor that decides your pp \
+        \n\nDon't be demotivated if your pp total is barely increasing! The main factor that decides your pp \
         \nis the limit of your skill, i.e. beating hard towers that push you to the limit. Expect your pp to \
         \nincrease very slightly when beating towers multiple difficulties below your hardest. Spending lots \
-        \nof time playing does not directly translate to a much higher pp score. Also, the aforementioned \
+        \nof time playing does not directly translate to a much higher pp total. Also, the aforementioned \
         \nBERD and pp values may not be entirely up to date. \
         \n\n\n{fg(255,255,200)}Thank you so much for using this program!{rs.fg} I would also like to thank the people behind {fg(220,45,45)}jtoh.pro{rs.fg}, \
         \n{fg(77,92,191)}towerstats.com{rs.fg}, {fg(255,102,170)}osu!{rs.fg}, {fg(254,223,21)}Score{fg(233,189,32)}Saber{rs.fg} and {fg(150,29,144)}Beat{fg(119,31,157)}Leader{rs.fg} for inspiring me to make this program and for \

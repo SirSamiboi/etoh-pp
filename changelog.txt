@@ -2,6 +2,7 @@
 Added The Starit Archives towers
 Updated the README to make the installation process much clearer (thanks LovelyJacob!)
 Capitalised entries in changelog
+Replaced all mentions of "pp score" (doesn't make sense)
 
 11/06/25
 Made milestone checking much neater
