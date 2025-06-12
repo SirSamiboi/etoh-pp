@@ -1,5 +1,5 @@
 12/06/25
-made the installation process much clearer (thanks LovelyJacob!)
+updated the README to make the installation process much clearer (thanks LovelyJacob!)
 
 11/06/25
 made milestone checking much neater
