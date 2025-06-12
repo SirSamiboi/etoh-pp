@@ -1,0 +1,4 @@
+DateTime==5.5
+matplotlib==3.10.3
+requests==2.32.4
+sty==1.0.6
