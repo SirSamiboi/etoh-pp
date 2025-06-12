@@ -225,22 +225,22 @@ Tower of Generation Failure/ToGF/11.17/2125416507/2124535623
 
 # The Starlit Archives
 
-# Tower of Lethean Recollection/ToLR/4.13/1289207222729699/0
-# Tower of You're Late For Work/ToYLFW/4.73/3753365954140761/0
-# Tower of Pursuit Led Astray/ToPLA/4.96/2766842373955971/0
-# Steeple of Balloon Commune/SoBC/5.63/53740875259774/0
-# Steeple of After-Life Detention/SoALD/5.86/2634745481559417/0
-# Steeple of The Manufactured Monstrosity/SoTMM/5.89/2763253159461072/0
-# Steeple of Two Minute Noodles/SoTMN/6.1/3730347966032771/0
-# Tower of The Umbrella, The User/ToTUTU/6.32/165330479439546/0
-# Tower of Infiltrated Ruins/ToIR/6.36/4465046116074335/0
-# Steeple of Itsy Bitsy/SoIB/6.4/391052562773885/0
-# Tower of A Disillusioned Existence/ToADE/6.57/491118547215153/0
-# Tower of Warranted Retribution/ToWR/6.75/2122020127306477/0
-# Tower of House Without Home/ToHWH/7.26/4114801218397975/0
-# Tower of Fleeing From Everything Ending/ToFFEE/7.40/2919301511601152/0
-# Steeple of Cheesy Vengeance/SoCV/7.59/1358487401757254/0
-# Steeple of Forlorn Blizzard/SoFB/7.68/1391896070846757/0
+Tower of Lethean Recollection/ToLR/4.13/1289207222729699/0
+Tower of You're Late For Work/ToYLFW/4.73/3753365954140761/0
+Tower of Pursuit Led Astray/ToPLA/4.96/2766842373955971/0
+Steeple of Balloon Commune/SoBC/5.63/53740875259774/0
+Steeple of After-Life Detention/SoALD/5.86/2634745481559417/0
+Steeple of The Manufactured Monstrosity/SoTMM/5.89/2763253159461072/0
+Steeple of Two Minute Noodles/SoTMN/6.1/3730347966032771/0
+Tower of The Umbrella, The User/ToTUTU/6.32/165330479439546/0
+Tower of Infiltrated Ruins/ToIR/6.36/4465046116074335/0
+Steeple of Itsy Bitsy/SoIB/6.4/391052562773885/0
+Tower of A Disillusioned Existence/ToADE/6.57/491118547215153/0
+Tower of Warranted Retribution/ToWR/6.75/2122020127306477/0
+Tower of House Without Home/ToHWH/7.26/4114801218397975/0
+Tower of Fleeing From Everything Ending/ToFFEE/7.40/2919301511601152/0
+Steeple of Cheesy Vengeance/SoCV/7.59/1358487401757254/0
+Steeple of Forlorn Blizzard/SoFB/7.68/1391896070846757/0
 
 # Ring 9
 

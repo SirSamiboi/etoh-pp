@@ -1,93 +1,95 @@
 12/06/25
-updated the README to make the installation process much clearer (thanks LovelyJacob!)
+Added The Starit Archives towers
+Updated the README to make the installation process much clearer (thanks LovelyJacob!)
+Capitalised entries in changelog
 
 11/06/25
-made milestone checking much neater
-removed 69 tower milestone (it's 2025)
-tweaked program info text
+Made milestone checking much neater
+Removed 69 tower milestone (it's 2025)
+Tweaked program info text
 
 08/06/25
-increased spacing on simple pp menu for more visual clarity
+Increased spacing on simple pp menu for more visual clarity
 
 27/05/25
-updated difficulties
+Updated difficulties
 
 25/05/25
-made grayed-out text darker for more visual clarity
-tweaked the displays of milestone completion dates
+Made grayed-out text darker for more visual clarity
+Tweaked the displays of milestone completion dates
 
 24/05/25
-updated difficulties (rip SoLW)
+Updated difficulties (rip SoLW)
 
 21/05/25
-updated difficulties
+Updated difficulties
 
 20/05/25
-fixed tower count milestone dates being off by one
+Fixed tower count milestone dates being off by one
 
 18/05/25
-updated difficulties
+Updated difficulties
 
 16/05/25
-updated difficulties
+Updated difficulties
 
 12/05/25
-updated messages to be clearer
-hid useless info used for developing the program
+Updated messages to be clearer
+Hid useless info used for developing the program
 
 11/05/25
-updated difficulties
+Updated difficulties
 
 10/05/25
-updated difficulties
+Updated difficulties
 
 08/05/25
-tweaked some milestones
+Tweaked some milestones
 
 06/05/25
-added files to GitHub repo for easier access
+Added files to GitHub repo for easier access
 
 02/05/25
-updated icon to show new logo
-tweaked pp color formula to be cleaner and a bit more accurate
-updated difficulties
+Updated icon to show new logo
+Tweaked pp color formula to be cleaner and a bit more accurate
+Updated difficulties
 
 30/04/25
-updated difficulties
+Updated difficulties
 
 29/04/25
-updated difficulties
+Updated difficulties
 
 28/04/25
-replaced ToB with ToVR
-removed/replaced towers are no longer stored in completion files
-updated difficulties
+Replaced ToB with ToVR
+Removed/replaced towers are no longer stored in completion files
+Updated difficulties
 
 26/04/25
-made pp history algorithm much faster
-added workaround for non-ascii display names
-sped up the listing of completions
-made intense color more readable and true to the game
-minimal tweaks to other colors
-updated difficulties
+Made pp history algorithm much faster
+Added workaround for non-ascii display names
+Sped up the listing of completions
+Made intense color more readable and true to the game
+Minimal tweaks to other colors
+Updated difficulties
 
 24/04/25
-updated difficulties
+Updated difficulties
 
 13/04/25
-added ToPL (mb i forgot)
-fixed bug where completed towers' difficulties would not be updated
-updated difficulties
+Added ToPL (mb i forgot)
+Fixed bug where completed towers' difficulties would not be updated
+Updated difficulties
 
 10/04/25
-updated difficulties
+Updated difficulties
 
 06/04/25
-added ToNI
-non-canon completion files are now deleted if empty
+Added ToNI
+Non-canon completion files are now deleted if empty
 
 05/04/25
-added ToJE and zone 10 towers
-added local player completion files, allowing for much faster repeated loading
-made graph generation more efficient by avoiding repeated pp calculations
-updated difficulties
+Added ToJE and Zone 10 towers
+Added local player completion files, allowing for much faster repeated loading
+Made graph generation more efficient by avoiding repeated pp calculations
+Updated difficulties
