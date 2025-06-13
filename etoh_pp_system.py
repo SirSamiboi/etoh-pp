@@ -40,7 +40,7 @@ milestone_descriptions = {
     "20000pp": "Phenomenal - Reach a total of 20,000pp. Few can compare to your ability, as you've engraved \
         \nyourself into the upper echelons of the obbying community. You're one of the rare few even amongst \
         \nSoul Crushing victors.",
-    "50000pp": "Legend - Reach a total of 50,000pp. You've reached the peak of the difficulty chart and \
+    "50000pp": "Legendary - Reach a total of 50,000pp. You've reached the peak of the difficulty chart and \
         \nhave conquered the Catastrophic difficulty. You can only look down upon all who aspire to achieve \
         \nyour level of skill, and you stand near unmatched, with the only exception being the absolute best.",
     "100000pp": "Unreal - Reach a total of 100,000pp. Most players will never even come close to your skill level. \
@@ -54,18 +54,23 @@ milestone_descriptions = {
         \nhave prepared you to tackle harder challenges.",
     "100t": "Triple Digits - Beat 100 towers. A monumental milestone that you should be very proud of. \
         \nYou've proven yourself to be a cut above the rest.",
-    "200t": "One With Obbying - Beat 200 towers. Through your vast gathering of experience, you've gained deep \
-        \nunderstanding of EToH mechanics. It's clear that you greatly enjoy clearing tower after tower.",
-    "300t": "I've Seen It All - Beat 300 towers. You've poured hundreds of hours into beating towers one after \
-        \nanother, and it shows. Keep pushing forward, you're almost at the endpoint.",
+    "200t": "Checklist Champion - Beat 200 towers. Through your vast gathering of experience, you've gained deep \
+        \nunderstanding of EToH mechanics. It's clear that you greatly enjoy clearing tower after tower, \
+        \nwading through the highs and lows of the game to claim more victories and complete entire areas.",
+    "300t": "Seen It All - Beat 300 towers. You've poured hundreds of hours into beating towers one after \
+        \nanother, and it shows. Keep pushing forward, you're almost at the endpoint. These final few towers \
+        \nwill be the hardest, but you're capable of overcoming them with your fantastic skill and willpower.",
     "all_non_sc": "Completionist - Beat every non-Soul Crushing tower in the game. If you'd like to keep living a \
-        \nproper life outside of EToH, this is a reasonable point to end your jorney, but don't be surprised \
-        \nif you come crawling back for more.",
+        \nproper life outside of EToH, this is more than a reasonable point to end your jorney. But don't be \
+        \nsurprised if you come crawling back for more. ;)",
     "all_sc": "Unbreakable Spirit - Beat every Soul Crushing tower in the game. You never face away from even the \
         \nmost daunting and insurmountable of challenges. Few can even comprehend the skill and experience \
-        \nyou've built up with each Soul Crushing completion, and now you've overcome every single challenge \
-        \nin your way. Godspeed.",
-    "all_towers": "Perfectionist - Beat every single tower in the game. You're a legend."
+        \nyou've built up with each Soul Crushing completion, and you've now overcome every single challenge \
+        \nin your way. Godspeed, your excellent talent and dedication have proven themselves.",
+    "all_towers": "Perfectionist - Beat every single tower in the game. You're an absolute legend! The hundreds of \
+        \nhours you've dedicated to grinding tower after tower have now paid off in their fullest. By now, \
+        \nyour journey has shaped you into one of the greatest obbyists of all time, and you deserve the \
+        \nright to proclaim that you've achieved the hardest 100% completion in all of Roblox."
 }
 
 BERD_SCALING = 2.5 # How much harder each difficulty is than the last

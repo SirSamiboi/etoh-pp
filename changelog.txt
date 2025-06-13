@@ -1,3 +1,7 @@
+13/06/25
+Updated milestones
+Made minor corrections in the README
+
 12/06/25
 Added The Starit Archives towers
 Updated the README to make the installation process much clearer (thanks LovelyJacob!)
