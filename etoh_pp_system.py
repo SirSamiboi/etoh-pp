@@ -73,8 +73,8 @@ milestone_descriptions = {
         \nright to proclaim that you've achieved the hardest 100% completion in all of Roblox."
 }
 
-BERD_SCALING = 2.5 # How much harder each difficulty is than the last
-WEIGHT_SCALING = 0.95 # The factor by which pp is reduced, per rank
+BERD_SCALING = 2.5 # How much harder each difficulty is than the last (default: 2.5 → 2.5x per difficulty)
+WEIGHT_SCALING = 0.95 # The factor by which pp is reduced, per rank (default: 0.95 → 5% reduction)
 MAIN_PATH = "/".join(os.path.dirname(__file__).split("\\")) # Location of program folder
 
 

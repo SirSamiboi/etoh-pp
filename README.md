@@ -10,7 +10,16 @@ To get started you will need to do the following:
 3) Unzip the file, then open the unzipped folder in a terminal of your choosing. Make sure you are in the correct directory; you can run `ls` to verify that you have `etoh_pp_system.py` listed as one of the files.
 4) Now you'll want to install the needed dependencies, so run `pip install -r requirements.txt` OR `py -m pip install -r requirements.txt`. If one of these doesn't work, try the other.
 5) To start the program, run `py etoh_pp_system.py`! You can also double-click the `etoh_pp_system.py` file in the program folder. From there, follow the text prompts.
-6) You can create a desktop shortcut of `etoh_pp_system.py` for easier access. By right-clicking the shortcut, then selecting `Properties` → `Change Icon`, you can go to the program folder and use the `icon` file as the shortcut's icon.
+
+You can create a desktop shortcut of `etoh_pp_system.py` for easier access. By right-clicking the shortcut, then selecting `Properties` → `Change Icon`, you can go to the program folder and use the `icon` file as the shortcut's icon. It also helps to rename the downloaded folder to simply `etoh-pp`, as you can update the files in the program folder to keep your saved completions and usernames, using the instructions below.
+
+## Updating
+
+By following these steps, you can update the program to the latest release, while keeping any saved completions and usernames:
+
+1) Repeat steps 2 and 3 of the installation instructions.
+2) Open the newly unzipped folder and select everything except for `completions`, `non_canon_completions` and `user_id_list.txt`. You can select multiple items by holding CTRL and clicking each item.
+3) Copy the selected files, then enter the `etoh-pp` folder that you were already using, and paste the files. When asked about replacing files, select the option `Replace the files in the destination`.
 
 ## How does it work?
 

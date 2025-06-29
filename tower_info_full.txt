@@ -3,17 +3,17 @@
 
 # Purgatorio
 
-# Tower of Genesis/ToG/.../.../0
-# Tower of Perpetual Motion/ToPM/.../.../0
-# Tower of Buttons/ToB/.../.../0
-# Tower of Various Pressures/ToVP/.../.../0
-# Tower of Critical Damage/ToCD/.../.../0
-# Tower of B??? M???/ToBM/.../.../0
-# Tower of Kinetic Potential/ToKP/.../.../0
-# Tower of No Strings Attached/ToNSA/.../.../0
-# Tower of Keys To Success/ToKTS/.../.../0
-# Tower of Dancing All Night/ToDAN/.../.../0
-# Citadel of Victory/CoV/.../.../0
+# Tower of Genesis/ToG/.../2998040866283977/0
+# Tower of Buttons/ToB/.../1792274219914148/0
+# Tower of Motion Evolution/ToME/.../1180657673680675/0
+# Tower of Various Pressures/ToVP/.../3194046165949700/0
+# Tower of Critical Damage/ToCD/.../1985325594898930/0
+# Tower of B??? M???/ToBM/.../2424222337564254/0
+# Tower of No Strings Attached/ToNSA/.../1406264843938633/0
+# Tower of Kinetic Potential/ToKP/.../3190118081857963/0
+# Tower of Keys To Success/ToKTS/.../2557966395367805/0
+# Tower of Dancing All Night/ToDAN/.../3557168381486575/0
+# Citadel of Victory/CoV/.../3615836876088083/0
 
 # Ring 1
 
@@ -37,7 +37,7 @@ Thanos Tower/TT/8.05/2125364309/2124457513
 Steeple of Meaningless Decisions/SoMD/1.22/2125416661/2124659768
 Tower of Jolly Good Fun/ToJGF/1.65/2125416710/2124659777
 Steeple of Low Woe/SoLW/2.78/2125416666/2124659770
-Steeple of Pursuit/SoP/2.82/2125416664/2124659769
+Steeple of Pursuit/SoP/2.86/2125416664/2124659769
 Steeple of Uninstalling Roblox/SoUR/3.96/2125416670/2124659771
 Tower of Immense Ire/ToII/4.24/2125416720/2124659780
 Steeple of Wall Punching/SoWP/4.57/2125416683/2124659772
@@ -62,7 +62,7 @@ Tower of Traps/ToT/5.7/2125365144/2124457646
 Tower of Deep Darkness/ToDD/5.8/2125365155/2124457656
 Tower of Shattered Dreams/ToSD/5.84/2125365112/2124457642
 Tower of Table Flipping/ToTF/6.44/2125365132/2124457644
-Tower of Eternal Suffering/ToES/7.40/2125365108/2124457641
+Tower of Eternal Suffering/ToES/7.5/2125365108/2124457641
 Citadel of Wacky Strategy/CoWS/7.96/2125365166/2124470872
 Tower of Difficulty Chart/ToDC/8.03/2125365158/2124457657
 
@@ -75,7 +75,7 @@ Steeple of Overgrowth/SoO/2.67/2125416751/2124924312
 Steeple of Nightfall/SoN/2.81/2125416757/2124924315
 Steeple of Overgrown Ascension/SoOA/3.16/2125416759/2124924323
 Steeple of Greenhouse Placidity/SoGP/3.7/2125416762/2124924326
-Steeple of Feudal Foliage/SoFF/3.80/2125416771/2124924332
+Steeple of Feudal Foliage/SoFF/3.8/2125416771/2124924332
 Steeple of Lost In Quiescence/SoLIQ/3.84/2125416758/2124924321
 Steeple of Various Vivariums/SoVV/4.01/2125416767/2124924328
 Steeple of Flourishing Wastelands/SoFW/5.61/2125416775/2124924335
@@ -88,7 +88,7 @@ Steeple of Buoyant Automations/SoBA/6.03/2125416780/2124924339
 Tower of Funny Thoughts/ToFT/1.68/2125365471/2124457789
 Tower of Inverted Colors/ToIC/2.09/2125365525/2124457795
 Tower of Ancient Trickery/ToAT/2.62/2125365520/2124457793
-Tower of Deep Sighing/ToDS/2.76/2125365453/2124457786
+Tower of Deep Sighing/ToDS/2.83/2125365453/2124457786
 Tower of Fatness/ToF/3.54/2125365461/2124457787
 Tower of Winning Every Run/ToWER/3.55/2125365451/2124457785
 Tower of Slight Inconvenience/ToSI/4.01/2125365464/2124457788
@@ -102,13 +102,13 @@ Tower of Confusion/ToC/8.94/2125365521/2124457794
 
 Tower of Spiraling Heights/ToSH/1.76/2125383817/2124457918
 Tower of Getting Gnomed/ToGG/2.84/2125383766/2124457883
-Tower of Terrible Mondays/ToTM/3.72/2125383841/2124457920
+Tower of Terrible Mondays/ToTM/3.6/2125383841/2124457920
 Tower of Elysium/ToE/3.92/2125383779/2124457915
 Tower of Linonophobia/ToL/4.5/2125383837/2124457919
 Tower of Leaning Ledges/ToLL/4.57/2125383785/2124457916
 Tower of Dust and Decay/ToDaD/5.08/2125383771/2124457884
 Tower of Holy Flip/ToHF/6.34/2125383842/2124457921
-Citadel of Uneasiness/CoU/6.80/2125383807/2124580592
+Citadel of Uneasiness/CoU/6.8/2125383807/2124580592
 Tower of Oblivion/ToO/6.97/2144113169/0
 Tower of Nonsensical Platforms/ToNP/7.08/2125383773/2124457885
 Tower of Corrupted Nightmares/ToCN/7.95/2125383775/2124457913
@@ -122,7 +122,7 @@ Tower of Ancestral Interference/ToAI/4.99/2143764022/0
 Steeple of Descendance/SoD/5.15/2143764044/0
 Tower of There Is No Tower/ToTINT/5.42/2143764050/0
 Steeple of Guiding Lights/SoGL/5.66/2143764056/0
-Steeple of Xenial Abyss/SoXA/5.90/2143764064/0
+Steeple of Xenial Abyss/SoXA/5.9/2143764064/0
 Steeple of Wicked Grotto/SoWG/6.02/2143764075/0
 Tower of Shallow Waters/ToSW/6.64/2143764094/0
 Steeple of Involuntary Isolation/SoII/6.71/2143764118/0
@@ -238,7 +238,7 @@ Steeple of Itsy Bitsy/SoIB/6.4/391052562773885/0
 Tower of A Disillusioned Existence/ToADE/6.57/491118547215153/0
 Tower of Warranted Retribution/ToWR/6.75/2122020127306477/0
 Tower of House Without Home/ToHWH/7.26/4114801218397975/0
-Tower of Fleeing From Everything Ending/ToFFEE/7.40/2919301511601152/0
+Tower of Fleeing From Everything Ending/ToFFEE/7.4/2919301511601152/0
 Steeple of Cheesy Vengeance/SoCV/7.59/1358487401757254/0
 Steeple of Forlorn Blizzard/SoFB/7.68/1391896070846757/0
 
@@ -364,7 +364,7 @@ Tower of Pure Chroma/ToPC/5.64/2125418532/2124603892
 Tower of Mechanically Induced Mayhem/ToMIM/6.02/2125418546/2124603896
 Tower of Shifting Slopes/ToSS/6.8/2125418554/2124603900
 Tower of Dance Dance Destruction/ToDDD/7.13/2125418559/2124603902
-Tower of Funky Grooves/ToFG/7.28/2125418552/2124603899
+Tower of Funky Grooves/ToFG/7.29/2125418552/2124603899
 Citadel of Quadrilaterals/CoQ/7.85/2125418563/2124603904
 Tower of Tornado Vehemence/ToTV/7.98/2125418551/2124603898
 Tower of Inevitable Failure/ToIF/8.45/2125418537/2124603895
@@ -398,7 +398,7 @@ Tower of Angled Scenery/ToAS/5.54/2125418718/0
 Tower of Hefty Magnitude/ToHM/5.88/2125418764/0
 Citadel of Twists and Weirdness/CoTaW/6.06/2125418913/0
 Tower of Hazardous Laddering/ToHL/6.25/2125418727/0
-Tower of Watts/ToW/6.40/2125418748/0
+Tower of Watts/ToW/6.4/2125418748/0
 Tower of Astral Fusion/ToAF/7.02/2125418733/0
 Tower of Massive Overheating/ToMO/7.42/2125418841/0
 Tower of Brief Challenges/ToBC/7.56/2125418858/0
