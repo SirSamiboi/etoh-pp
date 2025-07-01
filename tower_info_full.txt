@@ -107,7 +107,7 @@ Tower of Elysium/ToE/3.92/2125383779/2124457915
 Tower of Linonophobia/ToL/4.5/2125383837/2124457919
 Tower of Leaning Ledges/ToLL/4.57/2125383785/2124457916
 Tower of Dust and Decay/ToDaD/5.08/2125383771/2124457884
-Tower of Holy Flip/ToHF/6.34/2125383842/2124457921
+Tower of Holy Flip/ToHF/6.45/2125383842/2124457921
 Citadel of Uneasiness/CoU/6.8/2125383807/2124580592
 Tower of Oblivion/ToO/6.97/2144113169/0
 Tower of Nonsensical Platforms/ToNP/7.08/2125383773/2124457885
@@ -343,14 +343,10 @@ Tower of Cogs and Steam/ToCaS/4.66/2125418452/2124516357
 Tower of Requiring Critical Help/ToRCH/4.94/2125418458/2124516363
 Citadel of Tricky Situations/CoTS/4.98/2125418491/2124516375
 Tower of Menacing Creations/ToMC/5.56/2125418490/2124516374
-Tower of Infuriating Obstacles/ToIO/6.08/2125418432/2124516340
 Tower of Quirky Contraptions/ToQC/6.18/2125418461/2124516366
+Tower of Infuriating Obstacles/ToIO/6.32/2125418432/2124516340
 Tower of Cruel and Unusual Punishment/ToCaUP/6.46/2125418481/2124516370
 Tower of Hopeless Hell/ToHH/9.5/2125418485/2124516373
-
-# Pit of Misery
-
-Tower of Modernistic Design Choices/ToMDC/1.87/2125612958/0
 
 # Zone 4
 

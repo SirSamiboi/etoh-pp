@@ -1,3 +1,7 @@
+01/07/25
+Removed ToMDC
+Updated difficulties
+
 29/06/25
 Added updating instructions to README
 Updated difficulties
