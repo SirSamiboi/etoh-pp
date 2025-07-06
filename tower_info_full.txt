@@ -305,7 +305,7 @@ Tower of Slanted Anticipation/ToSA/2.98/2125418346/2124479684
 Tower of Ground Level Ascension/ToGLA/3.57/2125418311/2124479682
 Tower of Troublesome Adventures/ToTA/4.05/2125418352/2124479687
 Tower of Unearthed Discoveries/ToUD/4.21/2125418354/2124479688
-Tower of Dreams and Caverns/ToDaC/5.02/2125418292/2124479679
+Tower of Dreams and Caverns/ToDaC/4.91/2125418292/2124479679
 Tower of Pleasant Fantasies/ToPF/5.62/2125418326/2124479683
 Tower of Slipping and Sliding/ToSaS/5.74/2125418349/2124479686
 Citadel of Green Stuff/CoGS/6.39/2125418384/2124479690

@@ -1,3 +1,7 @@
+06/07/25
+^ ts date so tuff
+Updated difficulties
+
 01/07/25
 Removed ToMDC
 Updated difficulties
