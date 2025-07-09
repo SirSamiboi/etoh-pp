@@ -1,3 +1,7 @@
+09/07/25
+Replaced ToGKD with ToTR
+Updated difficulties
+
 06/07/25
 ^ ts date so tuff
 Updated difficulties

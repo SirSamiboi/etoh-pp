@@ -38,7 +38,7 @@ Steeple of Meaningless Decisions/SoMD/1.22/2125416661/2124659768
 Tower of Jolly Good Fun/ToJGF/1.65/2125416710/2124659777
 Steeple of Low Woe/SoLW/2.78/2125416666/2124659770
 Steeple of Pursuit/SoP/2.86/2125416664/2124659769
-Steeple of Uninstalling Roblox/SoUR/3.96/2125416670/2124659771
+Steeple of Uninstalling Roblox/SoUR/3.98/2125416670/2124659771
 Tower of Immense Ire/ToII/4.24/2125416720/2124659780
 Steeple of Wall Punching/SoWP/4.57/2125416683/2124659772
 Tower of Versatility/ToV/4.64/2125416714/2124659778
@@ -106,7 +106,7 @@ Tower of Terrible Mondays/ToTM/3.6/2125383841/2124457920
 Tower of Elysium/ToE/3.92/2125383779/2124457915
 Tower of Linonophobia/ToL/4.5/2125383837/2124457919
 Tower of Leaning Ledges/ToLL/4.57/2125383785/2124457916
-Tower of Dust and Decay/ToDaD/5.08/2125383771/2124457884
+Tower of Dust and Decay/ToDaD/5.12/2125383771/2124457884
 Tower of Holy Flip/ToHF/6.45/2125383842/2124457921
 Citadel of Uneasiness/CoU/6.8/2125383807/2124580592
 Tower of Oblivion/ToO/6.97/2144113169/0
@@ -133,7 +133,7 @@ Steeple of Malignant Blight/SoMB/7.45/2143764143/0
 # Ring 5
 
 Tower of Nice Views/ToNV/2.85/2125383930/2124457930
-Tower of Getting Kinda Dissappointed/ToGKD/3.52/2125383926/2124457929
+Tower of Trivial Resentment/ToTR/3.97/2125383926/2124457929
 Tower of Rigid Success/ToRS/4.36/2125383920/2124457927
 Tower of Downward Mobility/ToDM/5.17/2125383947/2124457932
 Tower of Obvious Chaos/ToOC/5.72/2125383952/2124457934
@@ -372,7 +372,7 @@ Tower of Sovereign Travelling/ToST/3.4/2125418587/0
 Tower of Super Stupid Security Systems/ToSSSS/3.91/2125418588/0
 Tower of Fractal Volution/ToFV/4.52/2125418599/0
 Tower of Bright Serenity/ToBS/4.75/2125418602/0
-Tower of Stairs To Spare/ToSTS/5.19/2125418593/0
+Tower of Stairs To Spare/ToSTS/5.31/2125418593/0
 Tower of Unhealthy Escalation/ToUE/5.99/2125418605/0
 Tower of Heiwana Kaze/ToHK/6.33/2125418597/0
 Tower of Horrifying Experiences/ToHE/6.33/2125418624/0
@@ -422,7 +422,7 @@ Tower of Uncanny Agony/ToUA/10.76/2127628604/0
 # Zone 8
 
 Tower of Melons In Time/ToMIT/3.76/2143540746/0
-Tower of Cosmic Tides/ToCT/3.98/2143540875/0
+Tower of Cosmic Tides/ToCT/3.93/2143540875/0
 Tower of A Tetromino Disaster/ToATD/4.78/2143540994/0
 Tower of X Madness/ToXM/4.96/2143541564/0
 Tower of Galactic Voyage/ToGV/5.18/2143541572/0
