@@ -1,3 +1,8 @@
+26/07/25
+Added ToVS
+Improved tower info formatting
+Updated difficulties
+
 09/07/25
 Replaced ToGKD with ToTR
 Updated difficulties

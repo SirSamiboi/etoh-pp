@@ -96,6 +96,8 @@ def get_towers():
     
     for tower_info in tower_info_list:
         tower_info = tower_info.split("/")
+        if len(tower_info) < 5:
+            tower_info.append("0")
         name, abbr, diff, badge_id, badge_id_old = tower_info
         
         towers.append({"tower_name":name, "tower_abbr":abbr, "tower_diff":float(diff), "badge_id":int(badge_id), "badge_id_old":int(badge_id_old)})
@@ -169,7 +171,7 @@ def get_completions(user_id):
 
         for tower in towers:
             if tower["tower_name"] == name:
-                diff = tower["tower_diff"] # Updates a complete tower's difficulty in the file, if the difficulty changed since last check
+                diff = tower["tower_diff"] # Updates a completed tower's difficulty, in case the difficulty changed since last check
                 is_canon = True
                 break
         
