@@ -1,3 +1,9 @@
+24/08/25
+Made tower info stay up-to-date using a GitHub gist (it's about time)
+Made the program usable while disconnected
+Renamed tower_info_full.txt to tower_info.txt
+Fixed bug when searching non-existent username
+
 26/07/25
 Added ToVS
 Improved tower info formatting

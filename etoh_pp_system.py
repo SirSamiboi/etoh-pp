@@ -73,9 +73,10 @@ milestone_descriptions = {
         \nright to proclaim that you've achieved the hardest 100% completion in all of Roblox."
 }
 
-BERD_SCALING = 2.5 # How much harder each difficulty is than the last (default: 2.5 → 2.5x per difficulty)
-WEIGHT_SCALING = 0.95 # The factor by which pp is reduced, per rank (default: 0.95 → 5% reduction)
+BERD_SCALING = 2.5 # How much harder each difficulty is than the last (default: 2.5, so 2.5x per difficulty)
+WEIGHT_SCALING = 0.95 # The factor by which pp is reduced, per rank (default: 0.95, so 5% reduction)
 MAIN_PATH = "/".join(os.path.dirname(__file__).split("\\")) # Location of program folder
+TOWER_INFO_URL = f"https://gist.githubusercontent.com/SirSamiboi/cc1e1dee46b92fa6c53bdb328ecdeff9/raw/tower_info.txt?={int(time.time())}" # URL of raw tower_info.txt GitHub gist
 
 
 # ==================== Defining subprograms ==================== #
@@ -86,11 +87,29 @@ def clear():
     os.system("cls")
 
 
-# Extracts information about all towers from tower_info_full.txt and returns it
+# Updates the tower_info.txt file to the latest version
+def update_tower_info():
+    try:
+        response = requests.get(TOWER_INFO_URL)
+        response.raise_for_status()
+    except:
+        print("ERROR: Couldn't connect to the GitHub server. (Tower info will not be updated) \
+            \nPlease check your internet connection and try again.\n")
+        time.sleep(3)
+        return None
+    
+    tower_info_file = open(f"{MAIN_PATH}/tower_info.txt","wb")
+    tower_info_file.write(response.content)
+    tower_info_file.close()
+
+
+# Extracts information about all towers from tower_info.txt and returns it
 def get_towers():
+    update_tower_info()
+
     towers = []
     
-    tower_info_file = open(f"{MAIN_PATH}/tower_info_full.txt","r",encoding="utf-8-sig")
+    tower_info_file = open(f"{MAIN_PATH}/tower_info.txt","r",encoding="utf-8-sig")
     tower_info_list = [line for line in tower_info_file.read().replace("\ufeff","").split("\n") if "/" in line and "#" not in line]
     tower_info_file.close()
     
@@ -138,7 +157,12 @@ def get_user_id(username):
     
     data = response.json()
 
-    if any(ord(char) > 127 for char in data["data"][0]["displayName"]): # handles non-ascii characters
+    if not data["data"]:
+        clear()
+        print("ERROR: Username does not exist.\n")
+        return (None, None)
+
+    if any(ord(char) > 127 for char in data["data"][0]["displayName"]): # Handles non-ASCII characters
         data["data"][0]["displayName"] = data["data"][0]["name"]
 
     if data["data"][0]["name"].lower() == username.lower():
@@ -186,9 +210,8 @@ def get_completions(user_id):
             towers_completed.append({"tower_name":name, "tower_abbr":abbr, "tower_diff":float(diff), "badge_id":0, "badge_id_old":0, "date_completed":date, "datetime_completed":datetime})
 
 
-    towers_completed_names = [tower["tower_name"] for tower in towers_completed]
-
-    
+    stored_towers_completed = towers_completed[:] # Contains offline tower completions, in case of connection failure
+    towers_completed_names = [tower["tower_name"] for tower in towers_completed] # Used to avoid double checking towers (old/new place)
     old_tower_badge_ids = [tower["badge_id_old"] for tower in towers if tower["tower_name"] not in towers_completed_names and tower["badge_id_old"] != 0]
     loading_count = 0 # Purely for visual feedback
 
@@ -201,8 +224,10 @@ def get_completions(user_id):
             response = requests.get(url)
         except:
             clear()
-            print("ERROR: Couldn't connect to the Roblox server. Please check your internet connection and try again.\n")
-            return []
+            print("ERROR: Couldn't connect to the Roblox server. (Tower completions will not be updated) \
+                \nPlease check your internet connection and try again.\n")
+            time.sleep(3)
+            return stored_towers_completed
         
         clear()
         print(f"Getting {displayname}'s completions{'.' * (loading_count % 3 + 1)}\n")
@@ -210,8 +235,10 @@ def get_completions(user_id):
 
         if response.status_code != 200:
             clear()
-            print("ERROR: Too many requests. Please wait a minute and try again.\n")
-            return []
+            print("ERROR: Too many requests. (Tower completions will not be updated) \
+                \nPlease wait a minute and try again.\n")
+            time.sleep(3)
+            return stored_towers_completed
         
         data = response.json()
 
@@ -241,8 +268,10 @@ def get_completions(user_id):
             response = requests.get(url)
         except:
             clear()
-            print("ERROR: Couldn't connect to the Roblox server. Please check your internet connection and try again.\n")
-            return []
+            print("ERROR: Couldn't connect to the Roblox server. (Tower completions will not be updated) \
+                \nPlease check your internet connection and try again.\n")
+            time.sleep(3)
+            return stored_towers_completed
         
         clear()
         print(f"Getting {displayname}'s completions{'.' * (loading_count % 3 + 1)}\n")
@@ -250,8 +279,10 @@ def get_completions(user_id):
 
         if response.status_code != 200:
             clear()
-            print("ERROR: Too many requests. Please wait a minute and try again.\n")
-            return []
+            print("ERROR: Too many requests. (Tower completions will not be updated) \
+                \nPlease wait a minute and try again.\n")
+            time.sleep(3)
+            return stored_towers_completed
         
         data = response.json()
 
@@ -285,12 +316,6 @@ def get_completions(user_id):
         completions_file.write(f"{data}\n")
     
     completions_file.close()
-    
-    if len(towers_completed) == 0:
-        clear()
-        print(f"{displayname} has not beaten any towers.\n")
-        return []
-
 
     return sorted(towers_completed, key=lambda tower:tower["date_completed"])
 
@@ -814,13 +839,13 @@ while running:
     towers_completed = get_completions(user_id)
 
     if len(towers_completed) == 0:
+        clear()
+        print(f"{displayname} has not beaten any towers.\n")
         continue
 
     towers_completed = load_non_canon_completions()
     
-    clear()
-    print(f"Completed towers loaded!\n")
-    
+    clear()    
     display_sorted_completions("date")
     
     menu_option = " "
