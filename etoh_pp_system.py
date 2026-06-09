@@ -77,7 +77,8 @@ BERD_SCALING = 2.5 # How much harder each difficulty is than the last (default: 
 WEIGHT_SCALING = 0.95 # The factor by which pp is reduced, per rank (default: 0.95, so 5% reduction)
 MAIN_PATH = "/".join(os.path.dirname(__file__).split("\\")) # Location of program folder
 TOWER_INFO_URL = f"https://gist.githubusercontent.com/SirSamiboi/cc1e1dee46b92fa6c53bdb328ecdeff9/raw/tower_info.txt?={int(time.time())}" # URL of raw tower_info.txt GitHub gist
-
+API_KEY_URL = f"https://gist.githubusercontent.com/SirSamiboi/c43fb724c9317f43e5ef79307083a74c/raw/inventory_api_key.txt?={int(time.time())}" # URL of API key used to check badges, i.e. tower completions
+            
 
 # ==================== Defining subprograms ==================== #
 
@@ -103,6 +104,23 @@ def update_tower_info():
     tower_info_file.close()
 
 
+# Updates the api_key.txt file to the latest version
+def update_api_key():
+    try:
+        response = requests.get(API_KEY_URL)
+        response.raise_for_status()
+    except:
+        print("ERROR: Couldn't connect to the GitHub server. (API key will not be updated) \
+            \nPlease check your internet connection and try again.\n")
+        time.sleep(3)
+        return None
+    
+    api_key_file = open(f"{MAIN_PATH}/api_key.txt","wb")
+    api_key_file.write(response.content)
+    api_key_file.close()
+
+
+
 # Extracts information about all towers from tower_info.txt and returns it
 def get_towers():
     update_tower_info()
@@ -116,7 +134,7 @@ def get_towers():
     for tower_info in tower_info_list:
         tower_info = tower_info.split("/")
         if len(tower_info) < 5:
-            tower_info.append("0")
+            tower_info.append("0") # for towers without an old place badge
         name, abbr, diff, badge_id, badge_id_old = tower_info
         
         towers.append({"tower_name":name, "tower_abbr":abbr, "tower_diff":float(diff), "badge_id":int(badge_id), "badge_id_old":int(badge_id_old)})
@@ -215,13 +233,37 @@ def get_completions(user_id):
     old_tower_badge_ids = [tower["badge_id_old"] for tower in towers if tower["tower_name"] not in towers_completed_names and tower["badge_id_old"] != 0]
     loading_count = 0 # Purely for visual feedback
 
+    # Load API key from file
+    try:
+        api_key_file = open(f"{MAIN_PATH}/api_key.txt", "r")
+        API_KEY = api_key_file.readline().strip()
+        headers = {
+            "x-api-key": API_KEY,
+            "Content-Type": "application/json"
+        }
+        api_key_file.close()
+
+    except FileNotFoundError:
+        clear()
+        print("ERROR: Couldn't load API key. Please check that the api_key.txt file is correct.")
+        time.sleep(3)
+        return stored_towers_completed
+
+    # TODO: Overhaul badge reading
+
     # Old place badges
     for group in range((len(old_tower_badge_ids)-1)//100+1):
 
-        url = f"https://badges.roblox.com/v1/users/{user_id}/badges/awarded-dates?badgeIds={','.join([str(badge_id) for badge_id in old_tower_badge_ids[group*100:(group+1)*100]])}"
+        # url = f"https://badges.roblox.com/v1/users/{user_id}/badges/awarded-dates?badgeIds={','.join([str(badge_id) for badge_id in old_tower_badge_ids[group*100:(group+1)*100]])}"        
+        url = f"https://apis.roblox.com/cloud/v2/users/{user_id}/inventory-items"
+
+        query_params = {
+            "maxPageSize": 100,
+            "filter": f"badgeIds={','.join([str(badge_id) for badge_id in old_tower_badge_ids[group*100:(group+1)*100]])}"
+        }
 
         try:
-            response = requests.get(url)
+            response = requests.get(url, headers=headers, params=query_params)
         except:
             clear()
             print("ERROR: Couldn't connect to the Roblox server. (Tower completions will not be updated) \
@@ -236,19 +278,30 @@ def get_completions(user_id):
         if response.status_code != 200:
             clear()
             print("ERROR: Too many requests. (Tower completions will not be updated) \
+                \nHave you set your Inventory visibility to \"everyone\"? \
                 \nPlease wait a minute and try again.\n")
-            time.sleep(3)
+            time.sleep(5)
             return stored_towers_completed
         
         data = response.json()
 
-        for badge in data["data"]:
+        for badge in data["inventoryItems"]:
+            badge_id = int(badge["badgeDetails"]["badgeId"])
+            awarded_date = badge["addTime"]
+
+            tower_found = False
+
             for tower in towers:
-                if badge["badgeId"] == tower["badge_id_old"]:
+                if badge_id == tower["badge_id_old"]:
                     tower_completed = tower
                     break
-            
-            date_completed = badge["awardedDate"][:19].replace("T"," ")
+
+            if not tower_found:
+                print(f"ERROR: Tower with badge ID {badge_id} could not be found.")
+                time.sleep(30)
+                continue
+
+            date_completed = awarded_date[:19].replace("T"," ")
             tower_completed["date_completed"] = date_completed
                 
             datetime_completed = dt.datetime.strptime(date_completed, "%Y-%m-%d %H:%M:%S")
@@ -262,10 +315,16 @@ def get_completions(user_id):
     # New place badges
     for group in range((len(tower_badge_ids)-1)//100+1):
 
-        url = f"https://badges.roblox.com/v1/users/{user_id}/badges/awarded-dates?badgeIds={','.join([str(badge_id) for badge_id in tower_badge_ids[group*100:(group+1)*100]])}"
+        # url = f"https://badges.roblox.com/v1/users/{user_id}/badges/awarded-dates?badgeIds={','.join([str(badge_id) for badge_id in tower_badge_ids[group*100:(group+1)*100]])}"
+        url = f"https://apis.roblox.com/cloud/v2/users/{user_id}/inventory-items"
         
+        query_params = {
+            "maxPageSize": 100,
+            "filter": f"badgeIds={','.join([str(badge_id) for badge_id in tower_badge_ids[group*100:(group+1)*100]])}"
+        }
+
         try:
-            response = requests.get(url)
+            response = requests.get(url, headers=headers, params=query_params)
         except:
             clear()
             print("ERROR: Couldn't connect to the Roblox server. (Tower completions will not be updated) \
@@ -280,19 +339,30 @@ def get_completions(user_id):
         if response.status_code != 200:
             clear()
             print("ERROR: Too many requests. (Tower completions will not be updated) \
+                \nHave you set your Inventory visibility to \"everyone\"? \
                 \nPlease wait a minute and try again.\n")
-            time.sleep(3)
+            time.sleep(5)
             return stored_towers_completed
         
         data = response.json()
 
-        for badge in data["data"]:
+        for badge in data["inventoryItems"]:
+            badge_id = int(badge["badgeDetails"]["badgeId"])
+            awarded_date = badge["addTime"]
+
+            tower_found = False
             for tower in towers:
-                if badge["badgeId"] == tower["badge_id"]:
+                if badge_id == tower["badge_id"]:
                     tower_completed = tower
+                    tower_found = True
                     break
+
+            if not tower_found:
+                print(f"ERROR: Tower with badge ID {badge_id} could not be found.")
+                time.sleep(30)
+                continue
             
-            date_completed = badge["awardedDate"][:19].replace("T"," ")
+            date_completed = awarded_date[:19].replace("T"," ")
             tower_completed["date_completed"] = date_completed
                 
             datetime_completed = dt.datetime.strptime(date_completed, "%Y-%m-%d %H:%M:%S")
@@ -811,6 +881,7 @@ def display_info():
 
 running = True
 
+update_api_key()
 towers = get_towers()
 
 print("========== List of towers ==========\n")

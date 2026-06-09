@@ -9,8 +9,8 @@ To get started you will need to do the following:
 2) Download the [latest release](https://github.com/SirSamiboi/etoh-pp/releases/latest). If you are unsure which file to download, choose `Source code (zip)`.
 3) Unzip the file, then open the unzipped folder in a terminal of your choosing. Make sure you are in the correct directory; you can run `ls` to verify that you have `etoh_pp_system.py` listed as one of the files.
 4) Now you'll want to install the needed dependencies, so run `pip install -r requirements.txt` OR `py -m pip install -r requirements.txt`. If one of these doesn't work, try the other.
-5) To start the program, run `py etoh_pp_system.py`! You can also double-click the `etoh_pp_system.py` file in the program folder. From there, follow the text prompts.
-
+5) In order to work, the program requires your Roblox inventory to be public. To check if this is the case, go to your Roblox Settings → `Privacy & content restrictions` → `Trading & inventory`, and ensure that `Inventory visibility` is set to `Everyone`.
+6) To start the program, run `py etoh_pp_system.py`! You can also double-click the `etoh_pp_system.py` file in the program folder. From there, follow the text prompts.
 You can create a desktop shortcut of `etoh_pp_system.py` for easier access. By right-clicking the shortcut, then selecting `Properties` → `Change Icon`, you can go to the program folder and use the `icon` file as the shortcut's icon. It also helps to rename the downloaded folder to simply `etoh-pp`, as you can update the files in the program folder to keep your saved completions and usernames, using the instructions below.
 
 ## Updating
@@ -33,7 +33,7 @@ By following these steps, you can update the program to the latest release, whil
 
 • Finally, the pp of all completed towers are added up, giving the total pp of the player.
 
-This is very similar to what the ranking systems of osu! and Beat Saber do, and now I've made the equivalent for EToH.
-The program also allows you to see a graph of anyone's pp history, so you can see how they've improved over time, including when they've beaten a new hardest tower!
+This is very similar to what the ranking systems of osu! and Beat Saber do. I really enjoy those ranking systems, so I was inspired to create the equivalent for EToH.
+The program also allows you to see a graph of anyone's pp history (as long as their inventory is public), so you can see how they've improved over time, including when they've beaten a new hardest tower!
 
 DM me on discord @sirsamiboi if there are any incorrect difficulties. Thank you for using my program :)
