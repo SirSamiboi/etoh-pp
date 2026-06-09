@@ -166,10 +166,7 @@ def get_user_id(username):
     
     if response.status_code != 200:
         clear()
-        if response.status_code == 429:
-            print(f"ERROR: Too many requests. Please wait a minute and try again.\n")
-        else:
-            print(f"ERROR: Couldn't reach server. Please wait and try again.\n")
+        print(f"ERROR: Couldn't fetch user ID. Please wait and try again. {fg(100,100,100)}[{response.status_code}]{rs.fg}\n")
 
         return (None, None)
     
@@ -277,9 +274,9 @@ def get_completions(user_id):
 
         if response.status_code != 200:
             clear()
-            print("ERROR: Couldn't fetch owned badge information. (Tower completions will not be updated) \
+            print(f"ERROR: Couldn't fetch owned badge information. (Tower completions will not be updated) \
                 \nHave you set your Inventory visibility to \"everyone\"? \
-                \nPlease wait a minute and try again.\n")
+                \nPlease wait a minute and try again. {fg(100,100,100)}[{response.status_code}]{rs.fg}\n")
             time.sleep(5)
             return stored_towers_completed
         
@@ -339,9 +336,9 @@ def get_completions(user_id):
 
         if response.status_code != 200:
             clear()
-            print("ERROR: Couldn't fetch owned badge information. (Tower completions will not be updated) \
+            print(f"ERROR: Couldn't fetch owned badge information. (Tower completions will not be updated) \
                 \nHave you set your Inventory visibility to \"everyone\"? \
-                \nPlease wait a minute and try again.\n")
+                \nPlease wait a minute and try again. {fg(100,100,100)}[{response.status_code}]{rs.fg}\n")
             time.sleep(5)
             return stored_towers_completed
         
