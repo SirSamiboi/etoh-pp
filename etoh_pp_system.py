@@ -294,11 +294,12 @@ def get_completions(user_id):
             for tower in towers:
                 if badge_id == tower["badge_id_old"]:
                     tower_completed = tower
+                    tower_found = True
                     break
 
             if not tower_found:
-                print(f"ERROR: Tower with badge ID {badge_id} could not be found.")
-                time.sleep(30)
+                print(f"ERROR: Tower with old badge ID {badge_id} could not be found.")
+                time.sleep(2)
                 continue
 
             date_completed = awarded_date[:19].replace("T"," ")
@@ -359,7 +360,7 @@ def get_completions(user_id):
 
             if not tower_found:
                 print(f"ERROR: Tower with badge ID {badge_id} could not be found.")
-                time.sleep(30)
+                time.sleep(2)
                 continue
             
             date_completed = awarded_date[:19].replace("T"," ")
