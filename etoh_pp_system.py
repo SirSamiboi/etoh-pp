@@ -277,7 +277,7 @@ def get_completions(user_id):
 
         if response.status_code != 200:
             clear()
-            print("ERROR: Too many requests. (Tower completions will not be updated) \
+            print("ERROR: Couldn't fetch owned badge information. (Tower completions will not be updated) \
                 \nHave you set your Inventory visibility to \"everyone\"? \
                 \nPlease wait a minute and try again.\n")
             time.sleep(5)
@@ -339,7 +339,7 @@ def get_completions(user_id):
 
         if response.status_code != 200:
             clear()
-            print("ERROR: Too many requests. (Tower completions will not be updated) \
+            print("ERROR: Couldn't fetch owned badge information. (Tower completions will not be updated) \
                 \nHave you set your Inventory visibility to \"everyone\"? \
                 \nPlease wait a minute and try again.\n")
             time.sleep(5)
