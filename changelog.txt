@@ -1,6 +1,5 @@
 09/06/26
 Adapted the program to work with the inventory-items API
-Program now checks for updates
 
 24/08/25
 Made tower info stay up-to-date using a GitHub gist (it's about time)
