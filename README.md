@@ -1,6 +1,11 @@
 # etoh-pp
 A Python program that let's you see the skill level of any EToH player, including you and your friends, by assigning them performance points (or pp) based on the towers they've beaten. Inspired by osu! and ScoreSaber's own pp systems.
 
+# Example
+<img width="648" height="352" alt="Screenshot 2026-06-28 013201" src="https://github.com/user-attachments/assets/00edbaa8-d33e-441a-a2df-01231038396b" />
+<img width="236" height="171" alt="Screenshot 2026-06-28 013205" src="https://github.com/user-attachments/assets/dfc41cc3-7377-4e4f-8eda-d25431f64539" />
+<img width="598" height="408" alt="Screenshot 2026-06-28 013152" src="https://github.com/user-attachments/assets/9d117094-8b1c-426f-9ed0-b0ed486efe31" />
+
 ## Installation
 
 To get started you will need to do the following:
