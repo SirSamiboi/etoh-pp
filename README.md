@@ -41,4 +41,4 @@ By following these steps, you can update the program to the latest release, whil
 This is very similar to what the ranking systems of osu! and Beat Saber do. I really enjoy those ranking systems, so I was inspired to create the equivalent for EToH.
 The program also allows you to see a graph of anyone's pp history (as long as their inventory is public), so you can see how they've improved over time, including when they've beaten a new hardest tower!
 
-DM me on discord @sirsamiboi if there are any incorrect difficulties. Thank you for using my program :)
+DM me on discord @sirsamiboi if there are any incorrect difficulties or issues you would like to report. Thank you for using my program :)
