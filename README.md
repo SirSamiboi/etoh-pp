@@ -1,10 +1,20 @@
 # etoh-pp
+
 A Python program that let's you see the skill level of any EToH player, including you and your friends, by assigning them performance points (or pp) based on the towers they've beaten. Inspired by osu! and ScoreSaber's own pp systems.
 
-# Example
-<img width="648" height="352" alt="Screenshot 2026-07-24 230632" src="https://github.com/user-attachments/assets/05aacc87-2e41-4ec9-ac4c-556d4a7e124f" />
-<img width="236" height="171" alt="Screenshot 2026-07-24 230641" src="https://github.com/user-attachments/assets/8fc84dc4-2a1a-4333-bb34-541b4a008f73" />
-<img width="598" height="408" alt="Screenshot 2026-07-24 230659" src="https://github.com/user-attachments/assets/e3dbe16f-0ef2-4ca1-964b-8d6159e55e68" />
+## Example
+
+The images, in order:
+
+• A breakdown of a player's top completions. Notice that non-EToH towers are included; these can be added manually within the program.
+
+• A summary of the player's difficulty completions and the player's pp score. The latter changes colour as the player's pp (and thus skill level) improves.
+
+• A graph showing the player's skill level history over time. Stars indicate when the player beat a new hardest tower. In the program, you can move and zoom into the graph.
+
+<img width="648" height="352" alt="Top completions screenshot" src="https://github.com/user-attachments/assets/05aacc87-2e41-4ec9-ac4c-556d4a7e124f" />
+<img width="236" height="171" alt="Difficulty and pp screenshot" src="https://github.com/user-attachments/assets/8fc84dc4-2a1a-4333-bb34-541b4a008f73" />
+<img width="598" height="408" alt="Skill level history graph" src="https://github.com/user-attachments/assets/e3dbe16f-0ef2-4ca1-964b-8d6159e55e68" />
 
 
 
