@@ -78,7 +78,7 @@ WEIGHT_SCALING = 0.95 # The factor by which pp is reduced, per rank (default: 0.
 MAIN_PATH = "/".join(os.path.dirname(__file__).split("\\")) # Location of program folder
 TOWER_INFO_URL = f"https://gist.githubusercontent.com/SirSamiboi/cc1e1dee46b92fa6c53bdb328ecdeff9/raw/tower_info.txt?={int(time.time())}" # URL of raw tower_info.txt GitHub gist
 API_KEY_URL = f"https://gist.githubusercontent.com/SirSamiboi/c43fb724c9317f43e5ef79307083a74c/raw/inventory_api_key.txt?={int(time.time())}" # URL of API key used to check badges, i.e. tower completions
-            
+PROGRAM_VERSION = "24/07/2026" # Date of current version's release (tower info gist should be updated when a new version is released)
 
 # ==================== Defining subprograms ==================== #
 
@@ -119,6 +119,19 @@ def update_api_key():
     api_key_file.write(response.content)
     api_key_file.close()
 
+
+# Fetches the release date of the latest etoh-pp version on GitHub
+def check_latest_version():
+    tower_info_file = open(f"{MAIN_PATH}/tower_info.txt","r",encoding="utf-8-sig")
+    
+    try:
+        latest_version = [line for line in tower_info_file.read().replace("\ufeff","").split("\n") if "# Release date of latest etoh-pp version:" in line][0][42:]
+    except:
+        latest_version = "unknown"
+
+    tower_info_file.close()
+
+    return latest_version
 
 
 # Extracts information about all towers from tower_info.txt and returns it
@@ -581,6 +594,11 @@ def plot_history_graph(pp_history):
         pp = data["pp"]
         hardest = data["hardest"]
 
+        if idx > 0:
+            pp_delta = pp - pp_history[idx-1]["pp"]
+        else:
+            pp_delta = pp
+
         xpoints.append(date)
         ypoints.append(pp)
 
@@ -589,11 +607,11 @@ def plot_history_graph(pp_history):
             diff_color_reg = tuple(val / 255 for val in diff_color)
             graph.plot(date, pp, marker="*", markersize=10, color=diff_color_reg, zorder=15)
             graph.text(date, pp, f"{hardest['tower_abbr']}  ", weight="bold", color=diff_color_reg, horizontalalignment="right", zorder=15)
-            print(f"{fg(*diff_color)}{str(date)[:10]}: {pp:,.2f}pp * {hardest['tower_abbr']}{rs.fg}")
+            print(f"{fg(*diff_color)}{str(date)[:10]}: {pp:,.2f}pp (+{pp_delta:,.2f}) * {hardest['tower_abbr']}{rs.fg}")
 
         elif pp != pp_history[idx-1]["pp"]: # adds point for change in pp
             graph.plot(date, pp, marker=".", markersize=8, color="C0", zorder=10)
-            print(f"{fg(100,100,100)}{str(date)[:10]}: {pp:,.2f}pp{rs.fg}")
+            print(f"{fg(100,100,100)}{str(date)[:10]}: {pp:,.2f}pp (+{pp_delta:,.2f}){rs.fg}")
         
         elif idx != len(pp_history) - 1 and pp != pp_history[idx+1]["pp"]: # adds point before change in pp
             graph.plot(date, pp, marker=".", markersize=8, color="C0", zorder=10)
@@ -679,7 +697,14 @@ def add_non_canon_completion():
             clear()
             print("ERROR: Tower completion has already been recorded.\n")
     
-    abbr = "".join(word[0] for word in name.split() if word != "")
+    abbr = ""
+    add_next = True
+    for char in name:
+        if char == " ":
+            add_next = True
+        elif add_next or char == ":":
+            abbr += char
+            add_next = False
 
     clear()
     while diff < 1 or diff > 14.99:
@@ -894,6 +919,9 @@ for tower in towers:
 
 print(f"\nTotal number of towers: {len(towers)}\n")
 
+latest_version = check_latest_version()
+if PROGRAM_VERSION != latest_version:
+    print(f"{fg(255,255,0)}A new update for etoh-pp is available on GitHub! ({latest_version}){rs.fg}\n")
 
 while running:
     user_id = None

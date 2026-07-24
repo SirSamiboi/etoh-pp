@@ -1,3 +1,8 @@
+24/06/26
+History log now shows pp increase per day
+Non-canon completions now have correct abbreviations with colons (e.g. ToRM:C)
+User is now notified if a new update is available
+
 09/06/26
 Adapted the program to work with the inventory-items API
 Updated error messages
